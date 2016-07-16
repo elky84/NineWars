@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<RelationEffectList>
+<Data Index="1.0" Min="36.0" Max="40.0" Effect="20.0"/>
+<Data Index="2.0" Min="31.0" Max="35.0" Effect="17.5"/>
+<Data Index="3.0" Min="26.0" Max="30.0" Effect="15.0"/>
+<Data Index="4.0" Min="21.0" Max="25.0" Effect="12.5"/>
+<Data Index="5.0" Min="16.0" Max="20.0" Effect="10.0"/>
+<Data Index="6.0" Min="11.0" Max="15.0" Effect="7.5"/>
+<Data Index="7.0" Min="6.0" Max="10.0" Effect="5.0"/>
+<Data Index="8.0" Min="0.0" Max="5.0" Effect="2.5"/>
+</RelationEffectList>

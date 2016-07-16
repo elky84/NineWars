@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ClassList>
+<Data Index="1.0" Name="Warrior" Strong1="2.0" Strong2="3.0" Strong3="4.0" Strong4="0.0" Strong5="0.0" Image="Warrior.png"/>
+<Data Index="2.0" Name="Knight" Strong1="1.0" Strong2="3.0" Strong3="0.0" Strong4="0.0" Strong5="0.0" Image="Knight.png"/>
+<Data Index="3.0" Name="Assassin" Strong1="1.0" Strong2="2.0" Strong3="0.0" Strong4="0.0" Strong5="0.0" Image="Assassin.png"/>
+<Data Index="4.0" Name="Rider" Strong1="5.0" Strong2="0.0" Strong3="0.0" Strong4="0.0" Strong5="0.0" Image="Rider.png"/>
+<Data Index="5.0" Name="Archer" Strong1="6.0" Strong2="0.0" Strong3="0.0" Strong4="0.0" Strong5="0.0" Image="Archer.png"/>
+<Data Index="6.0" Name="Magician" Strong1="7.0" Strong2="0.0" Strong3="0.0" Strong4="0.0" Strong5="0.0" Image="Magician.png"/>
+<Data Index="7.0" Name="Healer" Strong1="0.0" Strong2="0.0" Strong3="0.0" Strong4="0.0" Strong5="0.0" Image="Healer.png"/>
+</ClassList>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<MaintainSpeedList>
+<Data Index="1.0" Min="0.0" Max="0.0" CurrentState="-0.2" MoveTendency="-0.1" WarSituation="-0.3"/>
+<Data Index="2.0" Min="1.0" Max="10.0" CurrentState="-0.1" MoveTendency="-0.05" WarSituation="-0.24"/>
+<Data Index="3.0" Min="11.0" Max="20.0" CurrentState="0.0" MoveTendency="0.0" WarSituation="-0.18"/>
+<Data Index="4.0" Min="21.0" Max="30.0" CurrentState="0.1" MoveTendency="0.05" WarSituation="-0.12"/>
+<Data Index="5.0" Min="31.0" Max="40.0" CurrentState="0.2" MoveTendency="0.1" WarSituation="-0.06"/>
+<Data Index="6.0" Min="41.0" Max="59.0" CurrentState="0.3" MoveTendency="0.15" WarSituation="0.0"/>
+<Data Index="7.0" Min="60.0" Max="69.0" CurrentState="0.4" MoveTendency="0.2" WarSituation="0.06"/>
+<Data Index="8.0" Min="70.0" Max="79.0" CurrentState="0.5" MoveTendency="0.25" WarSituation="0.12"/>
+<Data Index="9.0" Min="80.0" Max="89.0" CurrentState="0.6" MoveTendency="0.3" WarSituation="0.18"/>
+<Data Index="10.0" Min="90.0" Max="99.0" CurrentState="0.7" MoveTendency="0.35" WarSituation="0.24"/>
+<Data Index="11.0" Min="100.0" Max="100.0" CurrentState="0.8" MoveTendency="0.4" WarSituation="0.3"/>
+</MaintainSpeedList>

@@ -1,0 +1,5 @@
+<ExcelList>
+	<Excel File = ".\Excel\CharacterStat.xlsx">
+		<Sheet Name = "CharacterStat" Namespace = "Instance"/>
+	</Excel>
+</ExcelList>

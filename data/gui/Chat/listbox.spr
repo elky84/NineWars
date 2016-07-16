@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "Chat.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "477" CutBottom = "84" Left = "0" Top = "0" Right = "424" Bottom = "105" R = "255" G = "255" B = "255" A = "128" Rotate = "0"/>
+	<FrameInfo CutLeft = "0" CutTop = "0" CutRight = "477" CutBottom = "84" Left = "0" Top = "0" Right = "424" Bottom = "105" R = "255" G = "255" B = "255" A = "128" Rotate = "0"/>
+	<FrameInfo CutLeft = "0" CutTop = "0" CutRight = "477" CutBottom = "84" Left = "0" Top = "0" Right = "424" Bottom = "105" R = "255" G = "255" B = "255" A = "128" Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

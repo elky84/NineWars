@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<TargetingDecideList>
+<Data Class="1.0" NearDistance="5.0" LessHP="-0.5" StrongClass="0.0"/>
+<Data Class="2.0" NearDistance="5.0" LessHP="0.0" StrongClass="-0.5"/>
+<Data Class="3.0" NearDistance="-0.5" LessHP="0.0" StrongClass="5.0"/>
+<Data Class="4.0" NearDistance="0.0" LessHP="-0.5" StrongClass="5.0"/>
+<Data Class="5.0" NearDistance="5.0" LessHP="0.0" StrongClass="-0.5"/>
+<Data Class="6.0" NearDistance="5.0" LessHP="-0.5" StrongClass="0.0"/>
+<Data Class="7.0" NearDistance="5.0" LessHP="0.0" StrongClass="-0.5"/>
+</TargetingDecideList>

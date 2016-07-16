@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{8461a385-6032-409b-a405-b22c8818c2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MetaData">
+      <UniqueIdentifier>{74199d36-ed0d-4b59-b3dc-1f2ffbe426cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Player">
+      <UniqueIdentifier>{626c41c5-3d4f-4d59-9668-0e94b87103d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Battle">
+      <UniqueIdentifier>{3ed429d2-f562-4173-bc02-a58d365c262d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Particle">
+      <UniqueIdentifier>{f4b2e962-0ec0-4fa6-904c-b4b8e555183d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Group">
+      <UniqueIdentifier>{a075bde2-cecf-4646-ade6-9ab099e376a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Logic">
+      <UniqueIdentifier>{35d941ae-9f02-43b5-9342-e0a3981105ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Logic\Action">
+      <UniqueIdentifier>{bb86303c-4582-4f41-8a18-7f9917d98ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Logic\Decide">
+      <UniqueIdentifier>{a388897e-0c4a-47ff-828e-9535b622b26b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Logic\Turn">
+      <UniqueIdentifier>{688eb8ff-20f8-4664-8385-3c38f67323f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Card">
+      <UniqueIdentifier>{5a57ae89-cc44-4681-892f-3a7a8ff7a362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Formula">
+      <UniqueIdentifier>{7481e922-22f3-4dc3-8b3a-5e40757976db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{1f4c4c45-f5fe-42f3-8742-45bca7dfa2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{382939f2-f090-4d3a-958d-5e0ef3154139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Item">
+      <UniqueIdentifier>{b63d70d7-7b08-4c4b-ba50-ed0e44eeff21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Skill">
+      <UniqueIdentifier>{fbc33f39-b3e8-4713-a088-1d52c9f231cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Detail">
+      <UniqueIdentifier>{944015cf-f3a0-45dd-a84c-d2c09db5b0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Card">
+      <UniqueIdentifier>{99f896b8-db04-43c1-8c54-5342d01bb3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Position">
+      <UniqueIdentifier>{087f279c-6e13-4178-8dee-9f90e53105aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui\Item">
+      <UniqueIdentifier>{73b28c67-17b9-495e-9104-7065ef9a35cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaData.h">
+      <Filter>MetaData</Filter>
+    </ClInclude>
+    <ClInclude Include="NWTypeDefinition.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="NWSquad.h">
+      <Filter>Contents\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="NWAction.h">
+      <Filter>Contents\Logic\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="NWFormula.h">
+      <Filter>Contents\Formula</Filter>
+    </ClInclude>
+    <ClInclude Include="NWProjectTile.h">
+      <Filter>Contents\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="NWEffect.h">
+      <Filter>Contents\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="NWCard.h">
+      <Filter>Contents\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="NWCardFactory.h">
+      <Filter>Contents\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="NWBattle.h">
+      <Filter>Contents\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="NWParticle.h">
+      <Filter>Contents\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="NWTurn.h">
+      <Filter>Contents\Logic\Turn</Filter>
+    </ClInclude>
+    <ClInclude Include="NWPlayer.h">
+      <Filter>Contents\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NWDecide.h">
+      <Filter>Contents\Logic\Decide</Filter>
+    </ClInclude>
+    <ClInclude Include="NWUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="NWItem.h">
+      <Filter>Contents\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="NWInventory.h">
+      <Filter>Contents\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="NWItemFactory.h">
+      <Filter>Contents\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="NWSkill.h">
+      <Filter>Contents\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButtonCardDetail.h">
+      <Filter>Gui\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButtonCard.h">
+      <Filter>Gui\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButtonPosition.h">
+      <Filter>Gui\Position</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPlaceholderCard.h">
+      <Filter>Gui\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPlaceholderPosition.h">
+      <Filter>Gui\Position</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPlaceholderItem.h">
+      <Filter>Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCardDetailMain.h">
+      <Filter>Gui\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCardDetailBG.h">
+      <Filter>Gui\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCardDetailStatus.h">
+      <Filter>Gui\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCardDetailItem.h">
+      <Filter>Gui\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCardStatus.h">
+      <Filter>Gui\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCard.h">
+      <Filter>Gui\Detail</Filter>
+    </ClInclude>
+    <ClInclude Include="NWDeck.h">
+      <Filter>Contents\Group</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButtonItem.h">
+      <Filter>Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="UIConstant.h">
+      <Filter>Gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NWSquad.cpp">
+      <Filter>Contents\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="NWAction.cpp">
+      <Filter>Contents\Logic\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="NWFormula.cpp">
+      <Filter>Contents\Formula</Filter>
+    </ClCompile>
+    <ClCompile Include="NWProjectTile.cpp">
+      <Filter>Contents\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="NWEffect.cpp">
+      <Filter>Contents\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="NWCard.cpp">
+      <Filter>Contents\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="NWCardFactory.cpp">
+      <Filter>Contents\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="NWBattle.cpp">
+      <Filter>Contents\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="NWParticle.cpp">
+      <Filter>Contents\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="NWTurn.cpp">
+      <Filter>Contents\Logic\Turn</Filter>
+    </ClCompile>
+    <ClCompile Include="NWPlayer.cpp">
+      <Filter>Contents\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NWDecide.cpp">
+      <Filter>Contents\Logic\Decide</Filter>
+    </ClCompile>
+    <ClCompile Include="NWUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="NWItem.cpp">
+      <Filter>Contents\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NWInventory.cpp">
+      <Filter>Contents\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NWItemFactory.cpp">
+      <Filter>Contents\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="NWSkill.cpp">
+      <Filter>Contents\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButtonCardDetail.cpp">
+      <Filter>Gui\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButtonCard.cpp">
+      <Filter>Gui\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButtonPosition.cpp">
+      <Filter>Gui\Position</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPlaceholderCard.cpp">
+      <Filter>Gui\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPlaceholderPosition.cpp">
+      <Filter>Gui\Position</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiPlaceholderItem.cpp">
+      <Filter>Gui\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCardDetailMain.cpp">
+      <Filter>Gui\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCardDetailBG.cpp">
+      <Filter>Gui\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCardDetailStatus.cpp">
+      <Filter>Gui\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCardDetailItem.cpp">
+      <Filter>Gui\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCardStatus.cpp">
+      <Filter>Gui\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiCard.cpp">
+      <Filter>Gui\Detail</Filter>
+    </ClCompile>
+    <ClCompile Include="NWDeck.cpp">
+      <Filter>Contents\Group</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButtonItem.cpp">
+      <Filter>Gui\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

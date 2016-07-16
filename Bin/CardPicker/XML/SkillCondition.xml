@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<SkillConditionList>
+<Data Index="1.0" ConditionType="1.0" ConditionValue="0.0" Desc="사용 시점"/>
+<Data Index="2.0" ConditionType="2.0" ConditionValue="0.0" Desc="패시브"/>
+<Data Index="3.0" ConditionType="3.0" ConditionValue="20.0" Desc="체력이 20% 이하"/>
+<Data Index="4.0" ConditionType="4.0" ConditionValue="5.0" Desc="체력이 5% 이하"/>
+</SkillConditionList>

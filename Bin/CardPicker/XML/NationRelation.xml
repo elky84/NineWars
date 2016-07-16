@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<NationRelationList>
+<Data Index="1.0" Name="A 국" Nation0="0.0" Relation0="0.0" Nation1="0.0" Relation1="0.0" Nation2="0.0" Relation2="0.0" Nation3="0.0" Relation3="0.0" Nation4="0.0" Relation4="0.0"/>
+<Data Index="2.0" Name="B 국" Nation0="0.0" Relation0="0.0" Nation1="0.0" Relation1="0.0" Nation2="0.0" Relation2="0.0" Nation3="0.0" Relation3="0.0" Nation4="0.0" Relation4="0.0"/>
+<Data Index="3.0" Name="C 국" Nation0="0.0" Relation0="0.0" Nation1="0.0" Relation1="0.0" Nation2="0.0" Relation2="0.0" Nation3="0.0" Relation3="0.0" Nation4="0.0" Relation4="0.0"/>
+<Data Index="4.0" Name="D 국" Nation0="0.0" Relation0="0.0" Nation1="0.0" Relation1="0.0" Nation2="0.0" Relation2="0.0" Nation3="0.0" Relation3="0.0" Nation4="0.0" Relation4="0.0"/>
+<Data Index="5.0" Name="E 국" Nation0="0.0" Relation0="0.0" Nation1="0.0" Relation1="0.0" Nation2="0.0" Relation2="0.0" Nation3="0.0" Relation3="0.0" Nation4="0.0" Relation4="0.0"/>
+</NationRelationList>

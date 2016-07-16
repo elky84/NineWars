@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Sprite>
+<SpriteInfo Layer="0" TextureName="NUMBER.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="32" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="1" CutLeft="32" CutTop="0" CutRight="64" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="2" CutLeft="64" CutTop="0" CutRight="96" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="3" CutLeft="96" CutTop="0" CutRight="128" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="128" CutTop="0" CutRight="160" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="5" CutLeft="160" CutTop="0" CutRight="192" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="6" CutLeft="192" CutTop="0" CutRight="224" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="7" CutLeft="224" CutTop="0" CutRight="256" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="256" CutTop="0" CutRight="288" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="9" CutLeft="288" CutTop="0" CutRight="320" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+</Sprite>

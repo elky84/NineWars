@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "Bar.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "288" CutBottom = "25" Left = "0" Top = "0" Right = "288" Bottom = "25" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+  </SpriteInfo>
+  <SpriteInfo Layer = "1" TextureName = "Cursor.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "14" CutBottom = "25" Left = "0" Top = "0" Right = "14" Bottom = "25" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

@@ -1,0 +1,143 @@
+<ExcelList>
+	<Excel File = ".\Excel\ClassEffect.xlsx">
+		<Sheet Name = "ClassEffect" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "Skill" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillEffect" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillCondition" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Tactics.xlsx">
+		<Sheet Name = "Tactics" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Tactics.xlsx">
+		<Sheet Name = "TacticsString" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Emoticon.xlsx">
+		<Sheet Name = "SituationEmoticon" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Emoticon.xlsx">
+		<Sheet Name = "FeelingEmoticon" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "DamageType" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "AdDamage" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "ApDamage" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "AdDefense" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "ApDefense" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "AdReduce" Key = "AdDefense"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "ApReduce" Key = "ApDefense"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "Turn" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "WeightGauge" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "HP" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterFormula.xlsx">
+		<Sheet Name = "MP" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Character.xlsx">
+		<Sheet Name = "Character" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Class.xlsx">
+		<Sheet Name = "Class" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\ItemList.xlsx">
+		<Sheet Name = "ItemInfo" Key = "Index"/>
+	</Excel>
+
+
+	<Excel File = ".\Excel\ClassAnimation.xlsx">
+		<Sheet Name = "ClassAnimation" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Equip.xlsx">
+		<Sheet Name = "Equip" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "MoveDecide" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "TargetingDecide" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "MaintainSpeed" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "PowerDecide" Key = "Class"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Relation.xlsx">
+		<Sheet Name = "RelationEffect" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Relation.xlsx">
+		<Sheet Name = "RaceRelation" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Relation.xlsx">
+		<Sheet Name = "GroupRelation" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Relation.xlsx">
+		<Sheet Name = "NationRelation" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Relation.xlsx">
+		<Sheet Name = "CharacterRelation" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\CharacterProfile.xlsx">
+		<Sheet Name = "CharacterProfile" Key = "Index"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Disposition.xlsx">
+		<Sheet Name = "Disposition" Key = "Index"/>
+	</Excel>
+
+</ExcelList>

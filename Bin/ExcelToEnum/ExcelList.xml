@@ -1,0 +1,50 @@
+<ExcelList>
+	<Excel File = ".\Excel\TacticsStat.xlsx">
+		<Sheet Name = "TacticsStat" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillEffect" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillCondition" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillLocation" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillCrash" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Skill.xlsx">
+		<Sheet Name = "SkillTarget" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "Targeting" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "MoveDecide" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Decide.xlsx">
+		<Sheet Name = "MaintainSpeed" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\UI.xlsx">
+		<Sheet Name = "SettingID" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Inventory.xlsx">
+		<Sheet Name = "Storage" Namespace = "Enum"/>
+	</Excel>
+
+	<Excel File = ".\Excel\Deck.xlsx">
+		<Sheet Name = "Locate" Namespace = "Enum"/>
+	</Excel>
+
+</ExcelList>

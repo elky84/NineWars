@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<TacticsStringList>
+<Data Index="1.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="2.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="3.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="4.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="5.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="6.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="7.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="8.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="9.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="10.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="11.0" Point0="20.0" String0="매우 낮음" Point1="40.0" String1="낮음" Point2="60.0" String2="보통" Point3="80.0" String3="높음" Point4="100.0" String4="매우 높음"/>
+<Data Index="12.0" Point0="32.0" String0="왼쪽" Point1="67.0" String1="중앙" Point2="100.0" String2="오른쪽" Point3="-1.0" String3="0" Point4="-1.0" String4="0"/>
+</TacticsStringList>

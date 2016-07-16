@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<TacticsList>
+<Data Index="1.0" Name="용맹함" Stat0="0.0" Multiply0="100.0" Stat1="1.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="2.0" Name="대담성" Stat0="1.0" Multiply0="100.0" Stat1="2.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="3.0" Name="예측력" Stat0="2.0" Multiply0="100.0" Stat1="3.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="4.0" Name="방어성향" Stat0="3.0" Multiply0="100.0" Stat1="4.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="5.0" Name="적극성" Stat0="4.0" Multiply0="100.0" Stat1="5.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="6.0" Name="승부욕" Stat0="5.0" Multiply0="100.0" Stat1="6.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="7.0" Name="집중력" Stat0="6.0" Multiply0="100.0" Stat1="7.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="8.0" Name="침착성" Stat0="7.0" Multiply0="100.0" Stat1="8.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="9.0" Name="판단력" Stat0="8.0" Multiply0="100.0" Stat1="9.0" Multiply1="50.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="10.0" Name="전술성향" Stat0="10.0" Multiply0="100.0" Stat1="-1.0" Multiply1="0.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="11.0" Name="자유도" Stat0="11.0" Multiply0="100.0" Stat1="-1.0" Multiply1="0.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+<Data Index="12.0" Name="공격 방향" Stat0="12.0" Multiply0="100.0" Stat1="-1.0" Multiply1="0.0" Stat2="-1.0" Multiply2="0.0" Stat3="-1.0" Multiply3="0.0" Stat4="-1.0" Multiply4="0.0"/>
+</TacticsList>

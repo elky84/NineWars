@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<EquipList>
+<Data Class="1.0" RightHand="22.0" LeftHand="-1.0" Helmet="53.0" Shirts="55.0" Armor="59.0" Glove="62.0" Boots="64.0" Robe="68.0"/>
+<Data Class="2.0" RightHand="23.0" LeftHand="51.0" Helmet="54.0" Shirts="55.0" Armor="60.0" Glove="61.0" Boots="65.0" Robe="68.0"/>
+<Data Class="3.0" RightHand="24.0" LeftHand="-1.0" Helmet="52.0" Shirts="55.0" Armor="58.0" Glove="61.0" Boots="64.0" Robe="69.0"/>
+<Data Class="4.0" RightHand="25.0" LeftHand="-1.0" Helmet="53.0" Shirts="56.0" Armor="59.0" Glove="61.0" Boots="65.0" Robe="68.0"/>
+<Data Class="5.0" RightHand="26.0" LeftHand="-1.0" Helmet="52.0" Shirts="55.0" Armor="58.0" Glove="61.0" Boots="64.0" Robe="68.0"/>
+<Data Class="6.0" RightHand="27.0" LeftHand="-1.0" Helmet="52.0" Shirts="55.0" Armor="58.0" Glove="61.0" Boots="64.0" Robe="69.0"/>
+<Data Class="7.0" RightHand="28.0" LeftHand="50.0" Helmet="53.0" Shirts="56.0" Armor="59.0" Glove="62.0" Boots="64.0" Robe="68.0"/>
+</EquipList>

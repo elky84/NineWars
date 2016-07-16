@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{57DCC8BB-50DF-451A-962D-DD3502A0B2D9}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>..\Bin\$(ProjectName)\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>..\Intermediate\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir>..\Bin\$(ProjectName)\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_59_0;..\..\light\Dependencies\boost_1_59_0;..\..\light\light\Include;..\..\light\light-excel\Include;..\..\light\light-view\Include;..\..\light\Dependencies\DX\Include;..\..\light\Dependencies\FModex\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common;</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_59_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\DX\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\FModex\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>light-excel_D.lib;light-view_D.Lib;light_D.lib;%(AdditionalDependencies); nw_common_D.lib</AdditionalDependencies>
+      <AdditionalOptions>/OPT:NOREF /LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_59_0;..\..\light\light-excel\Include;..\..\light\light\Include;..\..\light\light-view\Include;..\..\light\Dependencies\DX\Include;..\..\light\Dependencies\FModex\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common</AdditionalIncludeDirectories>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_59_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\DX\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\FModex\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>light-excel.lib;light-view.Lib;light.lib;%(AdditionalDependencies); nw_common.lib;</AdditionalDependencies>
+      <AdditionalOptions>/OPT:NOREF /LTCG %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BattleManager.cpp" />
+    <ClCompile Include="BattleMode.cpp" />
+    <ClCompile Include="BattleTest.cpp" />
+    <ClCompile Include="CardUI.cpp" />
+    <ClCompile Include="CharacterSettingMode.cpp" />
+    <ClCompile Include="DispositionUI.cpp" />
+    <ClCompile Include="SettingMode.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DispositionMode.cpp" />
+    <ClCompile Include="TacticsMode.cpp" />
+    <ClCompile Include="SetupUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BattleManager.h" />
+    <ClInclude Include="BattleMode.h" />
+    <ClInclude Include="CardUI.h" />
+    <ClInclude Include="CharacterSettingMode.h" />
+    <ClInclude Include="ConfigConstant.h" />
+    <ClInclude Include="DispositionUI.h" />
+    <ClInclude Include="PickConstant.h" />
+    <ClInclude Include="SettingMode.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="DispositionMode.h" />
+    <ClInclude Include="TacticsMode.h" />
+    <ClInclude Include="SetupUI.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

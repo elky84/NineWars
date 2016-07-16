@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Animation>
+
+<LayerInfo Layer="0">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="32" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="0" CutTop="0" CutRight="32" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+</LayerInfo>
+
+<LayerInfo Layer="1">
+
+<FrameInfo Frame="0" CutLeft="32" CutTop="0" CutRight="64" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="32" CutTop="0" CutRight="64" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+</LayerInfo>
+
+<LayerInfo Layer="2">
+
+<FrameInfo Frame="0" CutLeft="64" CutTop="0" CutRight="96" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="64" CutTop="0" CutRight="96" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+</LayerInfo>
+
+<LayerInfo Layer="3">
+
+<FrameInfo Frame="0" CutLeft="96" CutTop="0" CutRight="128" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="96" CutTop="0" CutRight="128" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+
+</LayerInfo>
+
+<LayerInfo Layer="4">
+
+
+<FrameInfo Frame="0" CutLeft="128" CutTop="0" CutRight="160" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="128" CutTop="0" CutRight="160" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+</LayerInfo>
+
+<LayerInfo Layer="5">
+
+<FrameInfo Frame="0" CutLeft="160" CutTop="0" CutRight="192" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="160" CutTop="0" CutRight="192" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+
+</LayerInfo>
+
+<LayerInfo Layer="6">
+
+<FrameInfo Frame="0" CutLeft="192" CutTop="0" CutRight="224" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="50" CutLeft="192" CutTop="0" CutRight="224" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+</LayerInfo>
+
+<LayerInfo Layer="7">
+
+<FrameInfo Frame="7" CutLeft="224" CutTop="0" CutRight="256" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="7" CutLeft="224" CutTop="0" CutRight="256" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+
+</LayerInfo>
+
+<LayerInfo Layer="8">
+
+<FrameInfo Frame="8" CutLeft="256" CutTop="0" CutRight="288" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="256" CutTop="0" CutRight="288" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+
+</LayerInfo>
+
+
+<LayerInfo Layer="9">
+
+<FrameInfo Frame="9" CutLeft="288" CutTop="0" CutRight="320" CutBottom="47" Left="0" Top="0" Right="32" Bottom="47" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="9" CutLeft="288" CutTop="0" CutRight="320" CutBottom="47" Left="0" Top="0" Right="16" Bottom="23" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+</LayerInfo>
+
+
+</Animation>

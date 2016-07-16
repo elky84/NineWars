@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ClassEffectList>
+<Data Index="1.0" Image=".\Effect\WARRIOR.ani" Attack=".\Effect\Attack\WARRIOR.ogg" Damage=".\Effect\Damage\WARRIOR.ogg"/>
+<Data Index="2.0" Image=".\Effect\KNIGHT.ani" Attack=".\Effect\Attack\KNIGHT.ogg" Damage=".\Effect\Damage\KNIGHT.ogg"/>
+<Data Index="3.0" Image=".\Effect\ASSASSIN.ani" Attack=".\Effect\Attack\ASSASSIN.ogg" Damage=".\Effect\Damage\ASSASSIN.ogg"/>
+<Data Index="4.0" Image=".\Effect\RIDER.ani" Attack=".\Effect\Attack\RIDER.ogg" Damage=".\Effect\Damage\RIDER.ogg"/>
+<Data Index="5.0" Image=".\Effect\BOW.ani" Attack=".\Effect\Attack\BOW.ogg" Damage=".\Effect\Damage\BOW.ogg"/>
+<Data Index="7.0" Image=".\Effect\HEALER.ani" Attack=".\Effect\Attack\HEALER.ogg" Damage=".\Effect\Damage\HEALER.ogg"/>
+<Data Index="6.0" Image=".\Effect\MAGICIAN.ani" Attack=".\Effect\Attack\MAGICIAN.ogg" Damage=".\Effect\Damage\MAGICIAN.ogg"/>
+</ClassEffectList>

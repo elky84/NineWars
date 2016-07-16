@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Animation>
+<LayerInfo Layer="0">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="1280" CutBottom="720" Left="0" Top="0" Right="1280" Bottom="720" R="255" G="255" B="255" A="0" Rotate="0"/>
+
+<FrameInfo Frame="200" CutLeft="0" CutTop="0" CutRight="1280" CutBottom="720" Left="0" Top="0" Right="1280" Bottom="720" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+</Animation>

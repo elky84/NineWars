@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<GroupRelationList>
+<Data Index="1.0" Name="TL단" Group0="1.0" Relation0="4.0" Group1="2.0" Relation1="2.0" Group2="3.0" Relation2="3.0" Group3="4.0" Relation3="3.0" Group4="5.0" Relation4="3.0"/>
+<Data Index="2.0" Name="쉐도우 핸드" Group0="1.0" Relation0="1.0" Group1="2.0" Relation1="4.0" Group2="3.0" Relation2="1.0" Group3="4.0" Relation3="1.0" Group4="5.0" Relation4="1.0"/>
+<Data Index="3.0" Name="헤븐스 도어" Group0="1.0" Relation0="3.0" Group1="2.0" Relation1="1.0" Group2="3.0" Relation2="4.0" Group3="4.0" Relation3="3.0" Group4="5.0" Relation4="3.0"/>
+<Data Index="4.0" Name="울프 가문" Group0="1.0" Relation0="3.0" Group1="2.0" Relation1="1.0" Group2="3.0" Relation2="3.0" Group3="4.0" Relation3="4.0" Group4="5.0" Relation4="3.0"/>
+<Data Index="5.0" Name="스네이크 사막 용병단 2소대 &apos;러브 앤드 피스&apos;" Group0="1.0" Relation0="2.0" Group1="2.0" Relation1="2.0" Group2="3.0" Relation2="2.0" Group3="4.0" Relation3="2.0" Group4="5.0" Relation4="4.0"/>
+</GroupRelationList>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<SkillEffectList>
+<Data Index="1.0" Name="물리 공격력 + 1" Probability="100.0" EffectType="1.0" EffectValue0="1.0" EffectValue1="0.1" EffectValue2="0.1" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="2.0" Name="물리 공격력 + 1" Probability="100.0" EffectType="1.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="3.0" Name="물리 공격력 + 2" Probability="100.0" EffectType="1.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="4.0" Name="물리 공격력 + 2" Probability="100.0" EffectType="1.0" EffectValue0="4.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="5.0" Name="물리 공격력 + 3" Probability="100.0" EffectType="1.0" EffectValue0="5.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="6.0" Name="물리 방어력 증가 + 5" Probability="100.0" EffectType="2.0" EffectValue0="5.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="7.0" Name="물리 방어력 증가 + 5" Probability="100.0" EffectType="2.0" EffectValue0="5.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="8.0" Name="물리 방어력 증가 + 10" Probability="100.0" EffectType="2.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="9.0" Name="물리 방어력 증가 + 10" Probability="100.0" EffectType="2.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="10.0" Name="물리 방어력 증가 + 15" Probability="100.0" EffectType="2.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="11.0" Name="마법 공격력 증가 + 1" Probability="100.0" EffectType="3.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="12.0" Name="마법 공격력 증가 + 1" Probability="100.0" EffectType="3.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="13.0" Name="마법 공격력 증가 + 2" Probability="100.0" EffectType="3.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="14.0" Name="마법 공격력 증가 + 2" Probability="100.0" EffectType="3.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="15.0" Name="마법 공격력 증가 + 3" Probability="100.0" EffectType="3.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="16.0" Name="마법 방어력 증가 + 5" Probability="100.0" EffectType="4.0" EffectValue0="5.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="17.0" Name="마법 방어력 증가 + 5" Probability="100.0" EffectType="4.0" EffectValue0="5.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="18.0" Name="마법 방어력 증가 + 10" Probability="100.0" EffectType="4.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="19.0" Name="마법 방어력 증가 + 10" Probability="100.0" EffectType="4.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="20.0" Name="마법 방어력 증가 + 15" Probability="100.0" EffectType="4.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="21.0" Name="이동속도 증가 + 1" Probability="100.0" EffectType="5.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="22.0" Name="이동속도 증가 + 1" Probability="100.0" EffectType="5.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="23.0" Name="이동속도 증가 + 2" Probability="100.0" EffectType="5.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="24.0" Name="이동속도 증가 + 2" Probability="100.0" EffectType="5.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="25.0" Name="이동속도 증가 + 3" Probability="100.0" EffectType="5.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="26.0" Name="공격 사거리 증가 + 1" Probability="100.0" EffectType="6.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="27.0" Name="공격 사거리 증가 + 1" Probability="100.0" EffectType="6.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="28.0" Name="공격 사거리 증가 + 2" Probability="100.0" EffectType="6.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="29.0" Name="공격 사거리 증가 + 2" Probability="100.0" EffectType="6.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="30.0" Name="공격 사거리 증가 + 3" Probability="100.0" EffectType="6.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="31.0" Name="공격 속도 + 50%" Probability="100.0" EffectType="7.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="32.0" Name="공격 속도 + 75%" Probability="100.0" EffectType="7.0" EffectValue0="75.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="33.0" Name="공격 속도 + 100%" Probability="100.0" EffectType="7.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="34.0" Name="공격 속도 + 125%" Probability="100.0" EffectType="7.0" EffectValue0="125.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="35.0" Name="공격 속도 + 150%" Probability="100.0" EffectType="7.0" EffectValue0="150.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="36.0" Name="좋은 아이템 획득률 + 3%" Probability="100.0" EffectType="8.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="37.0" Name="좋은 아이템 획득률 + 6%" Probability="100.0" EffectType="8.0" EffectValue0="6.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="38.0" Name="좋은 아이템 획득률 + 9%" Probability="100.0" EffectType="8.0" EffectValue0="9.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="39.0" Name="좋은 아이템 획득률 + 12%" Probability="100.0" EffectType="8.0" EffectValue0="12.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="40.0" Name="좋은 아이템 획득률 + 15%" Probability="100.0" EffectType="8.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="41.0" Name="골드 획득률 + 3%" Probability="100.0" EffectType="9.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="42.0" Name="골드 획득률 + 6%" Probability="100.0" EffectType="9.0" EffectValue0="6.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="43.0" Name="골드 획득률 + 9%" Probability="100.0" EffectType="9.0" EffectValue0="9.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="44.0" Name="골드 획득률 + 12%" Probability="100.0" EffectType="9.0" EffectValue0="12.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="45.0" Name="골드 획득률 + 15%" Probability="100.0" EffectType="9.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="46.0" Name="경험치 획득량 + 10%" Probability="100.0" EffectType="10.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="47.0" Name="경험치 획득량 + 15%" Probability="100.0" EffectType="10.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="48.0" Name="경험치 획득량 + 20%" Probability="100.0" EffectType="10.0" EffectValue0="20.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="49.0" Name="경험치 획득량 + 25%" Probability="100.0" EffectType="10.0" EffectValue0="25.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="50.0" Name="경험치 획득량 + 30%" Probability="100.0" EffectType="10.0" EffectValue0="30.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="51.0" Name="공격 사거리 내에 모든 적에게 120% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="52.0" Name="공격 사거리 내에 모든 적에게 140% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="140.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="53.0" Name="공격 사거리 내에 모든 적에게 160% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="160.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="54.0" Name="공격 사거리 내에 모든 적에게 180% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="180.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="55.0" Name="공격 사거리 내에 모든 적에게 200% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="200.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="56.0" Name="공격 사거리 내에 모든 적에게 80% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="57.0" Name="공격 사거리 내에 모든 적에게 90% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="90.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="58.0" Name="공격 사거리 내에 모든 적에게 100% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="59.0" Name="공격 사거리 내에 모든 적에게 110% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="110.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="60.0" Name="공격 사거리 내에 모든 적에게 120% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="61.0" Name="120% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="62.0" Name="140% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="140.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="63.0" Name="160% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="160.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="64.0" Name="180% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="180.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="65.0" Name="200% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="200.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="66.0" Name="이동속도 0.1 증가" Probability="100.0" EffectType="13.0" EffectValue0="0.1" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="67.0" Name="이동속도 0.15 증가" Probability="100.0" EffectType="13.0" EffectValue0="0.15" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="68.0" Name="이동속도 0.2 증가" Probability="100.0" EffectType="13.0" EffectValue0="0.2" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="69.0" Name="이동속도 0.25 증가" Probability="100.0" EffectType="13.0" EffectValue0="0.25" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="70.0" Name="이동속도 0.3 증가" Probability="100.0" EffectType="13.0" EffectValue0="0.3" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="71.0" Name="10초간 상대의 물리 방어력을 10% 낮춘다. ( 상대 클래스가 나이트 일 시 20초간 물리 방어력을 20% 낮춘다. )" Probability="100.0" EffectType="14.0" EffectValue0="10.0" EffectValue1="20.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="72.0" Name="10초간 상대의 물리 방어력을 15% 낮춘다. ( 상대 클래스가 나이트 일 시 20초간 물리 방어력을 30% 낮춘다. )" Probability="100.0" EffectType="14.0" EffectValue0="15.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="73.0" Name="10초간 상대의 물리 방어력을 20% 낮춘다. ( 상대 클래스가 나이트 일 시 20초간 물리 방어력을 40% 낮춘다. )" Probability="100.0" EffectType="14.0" EffectValue0="20.0" EffectValue1="40.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="74.0" Name="10초간 상대의 물리 방어력을 25% 낮춘다. ( 상대 클래스가 나이트 일 시 20초간 물리 방어력을 50% 낮춘다. )" Probability="100.0" EffectType="14.0" EffectValue0="25.0" EffectValue1="50.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="75.0" Name="10초간 상대의 물리 방어력을 30% 낮춘다. ( 상대 클래스가 나이트 일 시 20초간 물리 방어력을 60% 낮춘다. )" Probability="100.0" EffectType="14.0" EffectValue0="30.0" EffectValue1="60.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="76.0" Name="HP 30% 이하일 시 모든 공격력 + 3" Probability="100.0" EffectType="15.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="77.0" Name="HP 30% 이하일 시 모든 공격력 + 6" Probability="100.0" EffectType="15.0" EffectValue0="6.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="78.0" Name="HP 30% 이하일 시 모든 공격력 + 9" Probability="100.0" EffectType="15.0" EffectValue0="9.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="79.0" Name="HP 30% 이하일 시 모든 공격력 + 12" Probability="100.0" EffectType="15.0" EffectValue0="12.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="80.0" Name="HP 30% 이하일 시 모든 공격력 + 15" Probability="100.0" EffectType="15.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="81.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 물리 공격력 + 1" Probability="100.0" EffectType="16.0" EffectValue0="0.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="82.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 물리 공격력 + 1.5" Probability="100.0" EffectType="16.0" EffectValue0="0.75" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="83.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 물리 공격력 + 2" Probability="100.0" EffectType="16.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="84.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 물리 공격력 + 2.5" Probability="100.0" EffectType="16.0" EffectValue0="1.25" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="85.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 물리 공격력 + 3" Probability="100.0" EffectType="16.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="86.0" Name="80% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="87.0" Name="85% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="85.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="88.0" Name="90% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="90.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="89.0" Name="95% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="95.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="90.0" Name="100% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="91.0" Name="스킬 활성 유지시간동안 1초마다 1번씩 30% 확률로 일정 범위내의 모든 적에게 5초간 이속 30% 저하 디버프" Probability="30.0" EffectType="18.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="92.0" Name="스킬 활성 유지시간동안 1초마다 1번씩 35% 확률로 일정 범위내의 모든 적에게 5초간 이속 30% 저하 디버프" Probability="35.0" EffectType="18.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="93.0" Name="스킬 활성 유지시간동안 1초마다 1번씩 40% 확률로 일정 범위내의 모든 적에게 5초간 이속 30% 저하 디버프" Probability="40.0" EffectType="18.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="94.0" Name="스킬 활성 유지시간동안 1초마다 1번씩 45% 확률로 일정 범위내의 모든 적에게 5초간 이속 30% 저하 디버프" Probability="45.0" EffectType="18.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="95.0" Name="스킬 활성 유지시간동안 1초마다 1번씩 50% 확률로 일정 범위내의 모든 적에게 5초간 이속 30% 저하 디버프" Probability="50.0" EffectType="18.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="96.0" Name="스킬 활성 유지시간동안 공격 블록률 60%" Probability="100.0" EffectType="19.0" EffectValue0="60.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="97.0" Name="스킬 활성 유지시간동안 공격 블록률 65%" Probability="100.0" EffectType="19.0" EffectValue0="65.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="98.0" Name="스킬 활성 유지시간동안 공격 블록률 70%" Probability="100.0" EffectType="19.0" EffectValue0="70.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="99.0" Name="스킬 활성 유지시간동안 공격 블록률 75%" Probability="100.0" EffectType="19.0" EffectValue0="75.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="100.0" Name="스킬 활성 유지시간동안 공격 블록률 80%" Probability="100.0" EffectType="19.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="101.0" Name="스킬 활성 유지시간동안 공격 블록률 40%" Probability="100.0" EffectType="19.0" EffectValue0="40.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="102.0" Name="5초간 [ 공격 사거리 + 1 ] 내에 모든 적들의 타겟팅을 자신에게로 돌린다." Probability="100.0" EffectType="20.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="103.0" Name="6초간 [ 공격 사거리 + 1.25 ] 내에 모든 적들의 타겟팅을 자신에게로 돌린다." Probability="100.0" EffectType="20.0" EffectValue0="1.25" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="104.0" Name="7초간 [ 공격 사거리 + 1.5 ] 내에 모든 적들의 타겟팅을 자신에게로 돌린다." Probability="100.0" EffectType="20.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="105.0" Name="8초간 [ 공격 사거리 + 1.75 ] 내에 모든 적들의 타겟팅을 자신에게로 돌린다." Probability="100.0" EffectType="20.0" EffectValue0="1.75" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="106.0" Name="9초간 [ 공격 사거리 + 2 ] 내에 모든 적들의 타겟팅을 자신에게로 돌린다." Probability="100.0" EffectType="20.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="107.0" Name="HP 30% 이하일 시 모든 방어력 + 10" Probability="100.0" EffectType="21.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="108.0" Name="HP 30% 이하일 시 모든 방어력 + 15" Probability="100.0" EffectType="21.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="109.0" Name="HP 30% 이하일 시 모든 방어력 + 20" Probability="100.0" EffectType="21.0" EffectValue0="20.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="110.0" Name="HP 30% 이하일 시 모든 방어력 + 25" Probability="100.0" EffectType="21.0" EffectValue0="25.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="111.0" Name="HP 30% 이하일 시 모든 방어력 + 30" Probability="100.0" EffectType="21.0" EffectValue0="30.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="112.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 모든 방어력 + 2" Probability="100.0" EffectType="22.0" EffectValue0="0.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="113.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 모든 방어력 + 4" Probability="100.0" EffectType="22.0" EffectValue0="0.75" EffectValue1="2.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="114.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 모든 방어력 + 6" Probability="100.0" EffectType="22.0" EffectValue0="1.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="115.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 모든 방어력 + 8" Probability="100.0" EffectType="22.0" EffectValue0="1.25" EffectValue1="6.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="116.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 모든 방어력 + 10" Probability="100.0" EffectType="22.0" EffectValue0="1.5" EffectValue1="8.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="117.0" Name="60% 물리 공격력으로 [ 민첩 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="23.0" EffectValue0="60.0" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="118.0" Name="65% 물리 공격력으로 [ 민첩 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="23.0" EffectValue0="65.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="119.0" Name="70% 물리 공격력으로 [ 민첩 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="23.0" EffectValue0="70.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="120.0" Name="75% 물리 공격력으로 [ 민첩 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="23.0" EffectValue0="75.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="121.0" Name="80% 물리 공격력으로 [ 민첩 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="23.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="122.0" Name="크리티컬 확률 + 10%" Probability="100.0" EffectType="24.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="123.0" Name="크리티컬 확률 + 15%" Probability="100.0" EffectType="24.0" EffectValue0="15.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="124.0" Name="크리티컬 확률 + 20%" Probability="100.0" EffectType="24.0" EffectValue0="20.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="125.0" Name="크리티컬 확률 + 25%" Probability="100.0" EffectType="24.0" EffectValue0="25.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="126.0" Name="크리티컬 확률 + 30%" Probability="100.0" EffectType="24.0" EffectValue0="30.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="127.0" Name="시야에서 사라져 불투명 상태가 된다. ( 은신 상태가 풀리기 전에는 적에게 공격당하지 않는다. )" Probability="100.0" EffectType="25.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="128.0" Name="시야에서 사라져 불투명 상태가 된다. ( 은신 상태가 풀리기 전에는 적에게 공격당하지 않는다. )" Probability="100.0" EffectType="25.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="129.0" Name="시야에서 사라져 불투명 상태가 된다. ( 은신 상태가 풀리기 전에는 적에게 공격당하지 않는다. )" Probability="100.0" EffectType="25.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="130.0" Name="시야에서 사라져 불투명 상태가 된다. ( 은신 상태가 풀리기 전에는 적에게 공격당하지 않는다. )" Probability="100.0" EffectType="25.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="131.0" Name="시야에서 사라져 불투명 상태가 된다. ( 은신 상태가 풀리기 전에는 적에게 공격당하지 않는다. )" Probability="100.0" EffectType="25.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="132.0" Name="이동 사거리 내에서 나를 타겟팅한 적이 있을 때 타겟팅을 풀러버리며, 스킬 성공 시 나를 타겟팅 했던 적은 3초간 스턴에 빠진다." Probability="100.0" EffectType="26.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="133.0" Name="이동 사거리 내에서 나를 타겟팅한 적이 있을 때 타겟팅을 풀러버리며, 스킬 성공 시 나를 타겟팅 했던 적은 3초간 스턴에 빠진다." Probability="100.0" EffectType="26.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="134.0" Name="이동 사거리 내에서 나를 타겟팅한 적이 있을 때 타겟팅을 풀러버리며, 스킬 성공 시 나를 타겟팅 했던 적은 3초간 스턴에 빠진다." Probability="100.0" EffectType="26.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="135.0" Name="이동 사거리 내에서 나를 타겟팅한 적이 있을 때 타겟팅을 풀러버리며, 스킬 성공 시 나를 타겟팅 했던 적은 3초간 스턴에 빠진다." Probability="100.0" EffectType="26.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="136.0" Name="이동 사거리 내에서 나를 타겟팅한 적이 있을 때 타겟팅을 풀러버리며, 스킬 성공 시 나를 타겟팅 했던 적은 3초간 스턴에 빠진다." Probability="100.0" EffectType="26.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="137.0" Name="물리 공격력 120%를 상대의 물리 방어력을 50% 무시하며 공격한다. ( 상대의 뒤에서 공격 시 240% 물리 공격력과 물리 방어력을 100% 무시하여 공격한다. )" Probability="100.0" EffectType="27.0" EffectValue0="120.0" EffectValue1="50.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="138.0" Name="물리 공격력 140%를 상대의 물리 방어력을 50% 무시하며 공격한다. ( 상대의 뒤에서 공격 시 240% 물리 공격력과 물리 방어력을 100% 무시하여 공격한다. )" Probability="100.0" EffectType="27.0" EffectValue0="140.0" EffectValue1="50.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="139.0" Name="물리 공격력 160%를 상대의 물리 방어력을 50% 무시하며 공격한다. ( 상대의 뒤에서 공격 시 240% 물리 공격력과 물리 방어력을 100% 무시하여 공격한다. )" Probability="100.0" EffectType="27.0" EffectValue0="160.0" EffectValue1="50.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="140.0" Name="물리 공격력 180%를 상대의 물리 방어력을 50% 무시하며 공격한다. ( 상대의 뒤에서 공격 시 240% 물리 공격력과 물리 방어력을 100% 무시하여 공격한다. )" Probability="100.0" EffectType="27.0" EffectValue0="180.0" EffectValue1="50.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="141.0" Name="물리 공격력 200%를 상대의 물리 방어력을 50% 무시하며 공격한다. ( 상대의 뒤에서 공격 시 240% 물리 공격력과 물리 방어력을 100% 무시하여 공격한다. )" Probability="100.0" EffectType="27.0" EffectValue0="200.0" EffectValue1="50.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="142.0" Name="일반 공격 시 30% 확률로 적에게 독을 중독시켜 5초간 초당 4의 데미지" Probability="30.0" EffectType="28.0" EffectValue0="4.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="143.0" Name="일반 공격 시 30% 확률로 적에게 독을 중독시켜 5초간 초당 5의 데미지" Probability="30.0" EffectType="28.0" EffectValue0="5.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="144.0" Name="일반 공격 시 30% 확률로 적에게 독을 중독시켜 5초간 초당 6의 데미지" Probability="30.0" EffectType="28.0" EffectValue0="6.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="145.0" Name="일반 공격 시 30% 확률로 적에게 독을 중독시켜 5초간 초당 7의 데미지" Probability="30.0" EffectType="28.0" EffectValue0="7.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="146.0" Name="일반 공격 시 30% 확률로 적에게 독을 중독시켜 5초간 초당 8의 데미지" Probability="30.0" EffectType="28.0" EffectValue0="8.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="147.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 이동속도 + 0.1" Probability="100.0" EffectType="29.0" EffectValue0="0.5" EffectValue1="0.1" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="148.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 이동속도 + 0.15" Probability="100.0" EffectType="29.0" EffectValue0="0.75" EffectValue1="0.15" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="149.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 이동속도 + 0.2" Probability="100.0" EffectType="29.0" EffectValue0="1.0" EffectValue1="0.2" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="150.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 이동속도 + 0.25" Probability="100.0" EffectType="29.0" EffectValue0="1.25" EffectValue1="0.25" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="151.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 이동속도 + 0.3" Probability="100.0" EffectType="29.0" EffectValue0="1.5" EffectValue1="0.3" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="152.0" Name="공격 방향으로부터 1.5의 범위 만큼 150% 물리 데미지" Probability="100.0" EffectType="30.0" EffectValue0="1.5" EffectValue1="150.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="153.0" Name="공격 방향으로부터 1.75의 범위 만큼 175% 물리 데미지" Probability="100.0" EffectType="30.0" EffectValue0="1.75" EffectValue1="175.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="154.0" Name="공격 방향으로부터 2의 범위 만큼 200% 물리 데미지" Probability="100.0" EffectType="30.0" EffectValue0="2.0" EffectValue1="200.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="155.0" Name="공격 방향으로부터 2.25의 범위 만큼 225% 물리 데미지" Probability="100.0" EffectType="30.0" EffectValue0="2.25" EffectValue1="225.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="156.0" Name="공격 방향으로부터 2.5의 범위 만큼 250% 물리 데미지" Probability="100.0" EffectType="30.0" EffectValue0="2.5" EffectValue1="250.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="157.0" Name="120% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="158.0" Name="140% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="160.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="159.0" Name="160% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="180.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="160.0" Name="180% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="200.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="161.0" Name="200% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="162.0" Name="공격 사거리 내에 모든 적에게 80% 물리 데미지" Probability="100.0" EffectType="32.0" EffectValue0="90.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="163.0" Name="공격 사거리 내에 모든 적에게 90% 물리 데미지" Probability="100.0" EffectType="32.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="164.0" Name="공격 사거리 내에 모든 적에게 100% 물리 데미지" Probability="100.0" EffectType="32.0" EffectValue0="110.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="165.0" Name="공격 사거리 내에 모든 적에게 110% 물리 데미지" Probability="100.0" EffectType="32.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="166.0" Name="공격 사거리 내에 모든 적에게 120% 물리 데미지" Probability="100.0" EffectType="32.0" EffectValue0="150.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="167.0" Name="150% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="175.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="168.0" Name="175% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="200.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="169.0" Name="200% 물리 데미지 " Probability="100.0" EffectType="11.0" EffectValue0="225.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="170.0" Name="225% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="250.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="171.0" Name="250% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="172.0" Name="이속 저하, 발 묶기 면역 ( 해당 디버프들이 이미 걸려있을 시 디버프를 해제함. )" Probability="100.0" EffectType="34.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="173.0" Name="이속 저하, 발 묶기 면역 ( 해당 디버프들이 이미 걸려있을 시 디버프를 해제함. )" Probability="100.0" EffectType="34.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="174.0" Name="이속 저하, 발 묶기 면역 ( 해당 디버프들이 이미 걸려있을 시 디버프를 해제함. )" Probability="100.0" EffectType="34.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="175.0" Name="이속 저하, 발 묶기 면역 ( 해당 디버프들이 이미 걸려있을 시 디버프를 해제함. )" Probability="100.0" EffectType="34.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="176.0" Name="이속 저하, 발 묶기 면역 ( 해당 디버프들이 이미 걸려있을 시 디버프를 해제함. )" Probability="100.0" EffectType="34.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="177.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 이동속도 + 0.6" Probability="100.0" EffectType="29.0" EffectValue0="0.5" EffectValue1="0.6" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="178.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 이동속도 + 0.7" Probability="100.0" EffectType="29.0" EffectValue0="0.75" EffectValue1="0.7" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="179.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 이동속도 + 0.8" Probability="100.0" EffectType="29.0" EffectValue0="1.0" EffectValue1="0.8" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="180.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 이동속도 + 0.9" Probability="100.0" EffectType="29.0" EffectValue0="1.25" EffectValue1="0.9" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="181.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 이동속도 + 1" Probability="100.0" EffectType="29.0" EffectValue0="1.5" EffectValue1="1.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="182.0" Name="200% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="200.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="183.0" Name="225% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="225.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="184.0" Name="250% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="250.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="185.0" Name="275% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="275.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="186.0" Name="300% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="300.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="187.0" Name="80% 물리 데미지 * 3" Probability="100.0" EffectType="37.0" EffectValue0="80.0" EffectValue1="3.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="188.0" Name="90% 물리 데미지 * 3" Probability="100.0" EffectType="37.0" EffectValue0="90.0" EffectValue1="3.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="189.0" Name="100% 물리 데미지 * 3" Probability="100.0" EffectType="37.0" EffectValue0="100.0" EffectValue1="3.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="190.0" Name="110% 물리 데미지 * 3" Probability="100.0" EffectType="37.0" EffectValue0="110.0" EffectValue1="3.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="191.0" Name="120% 물리 데미지 * 3" Probability="100.0" EffectType="37.0" EffectValue0="120.0" EffectValue1="3.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="192.0" Name="120% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="193.0" Name="130% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="130.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="194.0" Name="140% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="140.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="195.0" Name="150% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="150.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="196.0" Name="160% 물리 데미지" Probability="100.0" EffectType="11.0" EffectValue0="160.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="197.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 공격 사거리 + 0.1" Probability="100.0" EffectType="39.0" EffectValue0="0.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="198.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 공격 사거리 + 0.2" Probability="100.0" EffectType="39.0" EffectValue0="0.75" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="199.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 공격 사거리 + 0.3" Probability="100.0" EffectType="39.0" EffectValue0="1.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="200.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 공격 사거리 + 0.4" Probability="100.0" EffectType="39.0" EffectValue0="1.25" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="201.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 공격 사거리 + 0.5" Probability="100.0" EffectType="39.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="202.0" Name="60% 마법 공격력으로 [ 지능 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="40.0" EffectValue0="60.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="203.0" Name="65% 마법 공격력으로 [ 지능 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="40.0" EffectValue0="65.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="204.0" Name="70% 마법 공격력으로 [ 지능 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="40.0" EffectValue0="70.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="205.0" Name="75% 마법 공격력으로 [ 지능 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="40.0" EffectValue0="75.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="206.0" Name="80% 마법 공격력으로 [ 지능 / 5 ] 만큼의 횟수로 공격한다." Probability="100.0" EffectType="40.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="207.0" Name="[ 3 + ( 마법 공격력 * 지능 / 15 ) ] 의 마법 데미지" Probability="100.0" EffectType="41.0" EffectValue0="3.0" EffectValue1="15.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="208.0" Name="[ 6 + ( 마법 공격력 * 지능 / 14 ) ] 의 마법 데미지" Probability="100.0" EffectType="41.0" EffectValue0="6.0" EffectValue1="14.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="209.0" Name="[ 9 + ( 마법 공격력 * 지능 / 13 ) ] 의 마법 데미지" Probability="100.0" EffectType="41.0" EffectValue0="9.0" EffectValue1="13.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="210.0" Name="[ 12 + ( 마법 공격력 * 지능 / 12 ) ] 의 마법 데미지" Probability="100.0" EffectType="41.0" EffectValue0="12.0" EffectValue1="12.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="211.0" Name="[ 15 + ( 마법 공격력 * 지능 / 11 ) ] 의 마법 데미지" Probability="100.0" EffectType="41.0" EffectValue0="15.0" EffectValue1="11.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="212.0" Name="자신을 중심으로 2의 거리에 있는 모든 적들에게 80% 마법 데미지" Probability="100.0" EffectType="44.0" EffectValue0="2.0" EffectValue1="80.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="213.0" Name="자신을 중심으로 2.25의 거리에 있는 모든 적들에게 85% 마법 데미지" Probability="100.0" EffectType="44.0" EffectValue0="2.25" EffectValue1="85.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="214.0" Name="자신을 중심으로 2.5의 거리에 있는 모든 적들에게 90% 마법 데미지" Probability="100.0" EffectType="44.0" EffectValue0="2.5" EffectValue1="90.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="215.0" Name="자신을 중심으로 2.75의 거리에 있는 모든 적들에게 95% 마법 데미지" Probability="100.0" EffectType="44.0" EffectValue0="2.75" EffectValue1="95.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="216.0" Name="자신을 중심으로 3의 거리에 있는 모든 적들에게 100% 마법 데미지" Probability="100.0" EffectType="44.0" EffectValue0="3.0" EffectValue1="100.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="217.0" Name="스킬이 활성화 되어 있는 동안 입는 마법 데미지를 80%로 반사한다." Probability="100.0" EffectType="45.0" EffectValue0="80.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="218.0" Name="스킬이 활성화 되어 있는 동안 입는 마법 데미지를 90%로 반사한다." Probability="100.0" EffectType="45.0" EffectValue0="90.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="219.0" Name="스킬이 활성화 되어 있는 동안 입는 마법 데미지를 100%로 반사한다." Probability="100.0" EffectType="45.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="220.0" Name="스킬이 활성화 되어 있는 동안 입는 마법 데미지를 110%로 반사한다." Probability="100.0" EffectType="45.0" EffectValue0="110.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="221.0" Name="스킬이 활성화 되어 있는 동안 입는 마법 데미지를 120%로 반사한다." Probability="100.0" EffectType="45.0" EffectValue0="120.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="222.0" Name="30% 확률로 아쳐의 공격에 데미지를 입지 않는다." Probability="30.0" EffectType="46.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="223.0" Name="35% 확률로 아쳐의 공격에 데미지를 입지 않는다." Probability="35.0" EffectType="46.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="224.0" Name="40% 확률로 아쳐의 공격에 데미지를 입지 않는다." Probability="40.0" EffectType="46.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="225.0" Name="45% 확률로 아쳐의 공격에 데미지를 입지 않는다." Probability="45.0" EffectType="46.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="226.0" Name="50% 확률로 아쳐의 공격에 데미지를 입지 않는다." Probability="50.0" EffectType="46.0" EffectValue0="0.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="227.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 마법 방어력 + 2" Probability="100.0" EffectType="47.0" EffectValue0="0.5" EffectValue1="2.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="228.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 마법 방어력 + 4" Probability="100.0" EffectType="47.0" EffectValue0="0.75" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="229.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 마법 방어력 + 6" Probability="100.0" EffectType="47.0" EffectValue0="1.0" EffectValue1="6.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="230.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 마법 방어력 + 8" Probability="100.0" EffectType="47.0" EffectValue0="1.25" EffectValue1="8.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="231.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 마법 방어력 + 10" Probability="100.0" EffectType="47.0" EffectValue0="1.5" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="232.0" Name="이동사거리 내의 아군 1인의 HP를 10 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 100 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="48.0" EffectValue0="10.0" EffectValue1="100.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="233.0" Name="이동사거리 내의 아군 1인의 HP를 15 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 95 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="48.0" EffectValue0="15.0" EffectValue1="95.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="234.0" Name="이동사거리 내의 아군 1인의 HP를 20 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 90 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="48.0" EffectValue0="20.0" EffectValue1="90.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="235.0" Name="이동사거리 내의 아군 1인의 HP를 25 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 85 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="48.0" EffectValue0="25.0" EffectValue1="85.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="236.0" Name="이동사거리 내의 아군 1인의 HP를 30 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 80 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="48.0" EffectValue0="30.0" EffectValue1="80.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="237.0" Name="이동사거리 내의 모든 아군의 HP를 3 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 150 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="49.0" EffectValue0="3.0" EffectValue1="150.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="238.0" Name="이동사거리 내의 모든 아군의 HP를 6 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 145 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="49.0" EffectValue0="6.0" EffectValue1="145.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="239.0" Name="이동사거리 내의 모든 아군의 HP를 9 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 140 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="49.0" EffectValue0="9.0" EffectValue1="140.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="240.0" Name="이동사거리 내의 모든 아군의 HP를 12 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 135 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="49.0" EffectValue0="12.0" EffectValue1="135.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="241.0" Name="이동사거리 내의 모든 아군의 HP를 15 + ( ( 마법 공격력 * ( 지능 + 지혜 ) ) / 130 ) 만큼을 즉시 회복시킨다." Probability="100.0" EffectType="49.0" EffectValue0="15.0" EffectValue1="130.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="242.0" Name="이동사거리 내의 아군 1인에게 10초동안 물리 공격력 + 2" Probability="100.0" EffectType="50.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="243.0" Name="이동사거리 내의 아군 1인에게 10초동안 물리 공격력 + 4" Probability="100.0" EffectType="50.0" EffectValue0="4.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="244.0" Name="이동사거리 내의 아군 1인에게 10초동안 물리 공격력 + 6" Probability="100.0" EffectType="50.0" EffectValue0="6.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="245.0" Name="이동사거리 내의 아군 1인에게 10초동안 물리 공격력 + 8" Probability="100.0" EffectType="50.0" EffectValue0="8.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="246.0" Name="이동사거리 내의 아군 1인에게 10초동안 물리 공격력 + 10" Probability="100.0" EffectType="50.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="247.0" Name="적을 1.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="248.0" Name="적을 1.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="249.0" Name="적을 2 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="250.0" Name="적을 2 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="251.0" Name="적을 2.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 20 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 20의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="2.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="252.0" Name="공격 속도 20% 증가" Probability="100.0" EffectType="52.0" EffectValue0="20.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="253.0" Name="공격 속도 20% 증가" Probability="100.0" EffectType="52.0" EffectValue0="20.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="254.0" Name="공격 속도 25% 증가" Probability="100.0" EffectType="52.0" EffectValue0="25.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="255.0" Name="공격 속도 25% 증가" Probability="100.0" EffectType="52.0" EffectValue0="25.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="256.0" Name="공격 속도 30% 증가" Probability="100.0" EffectType="52.0" EffectValue0="30.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="257.0" Name="물리 공격력 30% 증가" Probability="100.0" EffectType="53.0" EffectValue0="30.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="258.0" Name="물리 공격력 35% 증가" Probability="100.0" EffectType="53.0" EffectValue0="35.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="259.0" Name="물리 공격력 40% 증가" Probability="100.0" EffectType="53.0" EffectValue0="40.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="260.0" Name="물리 공격력 45% 증가" Probability="100.0" EffectType="53.0" EffectValue0="45.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="261.0" Name="물리 공격력 50% 증가" Probability="100.0" EffectType="53.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="262.0" Name="물리 방어력 + 마법 방어력 30% 감소" Probability="100.0" EffectType="54.0" EffectValue0="30.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="263.0" Name="물리 방어력 + 마법 방어력 35% 감소" Probability="100.0" EffectType="54.0" EffectValue0="30.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="264.0" Name="물리 방어력 + 마법 방어력 40% 감소" Probability="100.0" EffectType="54.0" EffectValue0="30.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="265.0" Name="물리 방어력 + 마법 방어력 45% 감소" Probability="100.0" EffectType="54.0" EffectValue0="30.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="266.0" Name="물리 방어력 + 마법 방어력 50% 감소" Probability="100.0" EffectType="54.0" EffectValue0="30.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="267.0" Name="2초간 스턴" Probability="100.0" EffectType="35.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="268.0" Name="2초간 스턴" Probability="100.0" EffectType="35.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="269.0" Name="2.5초간 스턴" Probability="100.0" EffectType="35.0" EffectValue0="2.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="270.0" Name="2.5초간 스턴" Probability="100.0" EffectType="35.0" EffectValue0="2.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="271.0" Name="3초간 스턴" Probability="100.0" EffectType="35.0" EffectValue0="3.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="272.0" Name="적을 1.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="100.0" EffectType="42.0" EffectValue0="1.5" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="273.0" Name="적을 1.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="100.0" EffectType="42.0" EffectValue0="1.5" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="274.0" Name="적을 2 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="100.0" EffectType="42.0" EffectValue0="2.0" EffectValue1="15.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="275.0" Name="적을 2 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="100.0" EffectType="42.0" EffectValue0="2.0" EffectValue1="15.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="276.0" Name="적을 2.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 20 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 20의 피해를 입음. )" Probability="100.0" EffectType="42.0" EffectValue0="2.5" EffectValue1="20.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="277.0" Name="블록에 의한 데미지 40% 감소" Probability="100.0" EffectType="43.0" EffectValue0="40.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="278.0" Name="블록에 의한 데미지 45% 감소" Probability="100.0" EffectType="43.0" EffectValue0="45.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="279.0" Name="블록에 의한 데미지 50% 감소" Probability="100.0" EffectType="43.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="280.0" Name="블록에 의한 데미지 55% 감소" Probability="100.0" EffectType="43.0" EffectValue0="55.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="281.0" Name="블록에 의한 데미지 60% 감소" Probability="100.0" EffectType="43.0" EffectValue0="60.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="282.0" Name="블록에 의한 데미지 10% 감소" Probability="100.0" EffectType="43.0" EffectValue0="10.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="283.0" Name="[ 이동사거리 + 0.5 ] 내의 모든 아군의 공격속도 + 0.1" Probability="100.0" EffectType="31.0" EffectValue0="0.5" EffectValue1="0.1" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="284.0" Name="[ 이동사거리 + 0.75 ] 내의 모든 아군의 공격속도 + 0.15" Probability="100.0" EffectType="31.0" EffectValue0="0.75" EffectValue1="0.15" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="285.0" Name="[ 이동사거리 + 1 ] 내의 모든 아군의 공격속도 + 0.2" Probability="100.0" EffectType="31.0" EffectValue0="1.0" EffectValue1="0.2" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="286.0" Name="[ 이동사거리 + 1.25 ] 내의 모든 아군의 공격속도 + 0.25" Probability="100.0" EffectType="31.0" EffectValue0="1.25" EffectValue1="0.25" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="287.0" Name="[ 이동사거리 + 1.5 ] 내의 모든 아군의 공격속도 + 0.3" Probability="100.0" EffectType="31.0" EffectValue0="1.5" EffectValue1="0.3" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="288.0" Name="30% 확률로 적을 1.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="30.0" EffectType="33.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="289.0" Name="35% 확률로 적을 1.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="35.0" EffectType="33.0" EffectValue0="1.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="290.0" Name="40% 확률로 적을 2 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="40.0" EffectType="33.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="291.0" Name="45% 확률로 적을 2 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="45.0" EffectType="33.0" EffectValue0="2.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="292.0" Name="50% 확률로 적을 2.5 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 20 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 20의 피해를 입음. )" Probability="50.0" EffectType="33.0" EffectValue0="2.5" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="293.0" Name="20% 확률로 적을 뚫고 반대편으로 이동할 시 추가로 100% 물리 데미지" Probability="20.0" EffectType="38.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="294.0" Name="25% 확률로 적을 뚫고 반대편으로 이동할 시 추가로 100% 물리 데미지" Probability="25.0" EffectType="38.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="295.0" Name="30% 확률로 적을 뚫고 반대편으로 이동할 시 추가로 100% 물리 데미지" Probability="30.0" EffectType="38.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="296.0" Name="35% 확률로 적을 뚫고 반대편으로 이동할 시 추가로 100% 물리 데미지" Probability="35.0" EffectType="38.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="297.0" Name="40% 확률로 적을 뚫고 반대편으로 이동할 시 추가로 100% 물리 데미지" Probability="40.0" EffectType="38.0" EffectValue0="100.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="298.0" Name="공격 사거리 내에 모든 적에게 40% 확률로 5초간 이동속도를 30% 저하시킨다." Probability="40.0" EffectType="36.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="299.0" Name="공격 사거리 내에 모든 적에게 45% 확률로 5초간 이동속도를 30% 저하시킨다." Probability="45.0" EffectType="36.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="300.0" Name="공격 사거리 내에 모든 적에게 50% 확률로 5초간 이동속도를 30% 저하시킨다." Probability="50.0" EffectType="36.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="301.0" Name="공격 사거리 내에 모든 적에게 55% 확률로 5초간 이동속도를 30% 저하시킨다." Probability="55.0" EffectType="36.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="302.0" Name="공격 사거리 내에 모든 적에게 60% 확률로 5초간 이동속도를 30% 저하시킨다." Probability="60.0" EffectType="36.0" EffectValue0="5.0" EffectValue1="30.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="303.0" Name="적을 1 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.0" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="304.0" Name="적을 1 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 10 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 10의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.0" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="305.0" Name="적을 1 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.0" EffectValue1="15.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="306.0" Name="적을 1 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 15 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 15의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.0" EffectValue1="15.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="307.0" Name="적을 1 거리 만큼 넉백 ( 밀려나고 있는 방향에 지형지물, 화면 끝, 아군 및 적군 등 이동할 수 없는 장애물로 넉백이 끝나며 1초간 스턴 및 순수 20 데미지 추가 / 부딪힌 게 아군 및 적군일 시 해당 유닛도 순수 데미지 20의 피해를 입음. )" Probability="100.0" EffectType="12.0" EffectValue0="1.0" EffectValue1="20.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="308.0" Name="30% 확률로 화상 ( 5초간 초당 4의 데미지 )" Probability="30.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="309.0" Name="30% 확률로 화상 ( 5초간 초당 5의 데미지 )" Probability="30.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="5.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="310.0" Name="30% 확률로 화상 ( 5초간 초당 6의 데미지 )" Probability="30.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="6.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="311.0" Name="30% 확률로 화상 ( 5초간 초당 7의 데미지 )" Probability="30.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="7.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="312.0" Name="30% 확률로 화상 ( 5초간 초당 8의 데미지 )" Probability="30.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="8.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="313.0" Name="10% 확률로 5초간 화상 ( 초당 4의 데미지 )" Probability="10.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="314.0" Name="10% 확률로 5초간 화상 ( 초당 4의 데미지 )" Probability="10.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="315.0" Name="10% 확률로 5초간 화상 ( 초당 4의 데미지 )" Probability="10.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="316.0" Name="10% 확률로 5초간 화상 ( 초당 4의 데미지 )" Probability="10.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="317.0" Name="10% 확률로 5초간 화상 ( 초당 4의 데미지 )" Probability="10.0" EffectType="17.0" EffectValue0="5.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="318.0" Name="30% 확률로 5초간 동상 ( 이동속도 30% 저하 / 공격속도 10% 저하 )" Probability="30.0" EffectType="56.0" EffectValue0="30.0" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="319.0" Name="30% 확률로 감전 ( 15초 안에 감전 효과 재발생시 5초간 스턴 )" Probability="15.0" EffectType="57.0" EffectValue0="15.0" EffectValue1="5.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="320.0" Name="30% 확률로 5초간 슬로우 ( 이동속도 50% 저하 )" Probability="50.0" EffectType="58.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="321.0" Name="20% 확률로 1.5초간 스턴" Probability="20.0" EffectType="35.0" EffectValue0="20.0" EffectValue1="1.5" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="322.0" Name="20% 확률로 1.5초간 스턴" Probability="20.0" EffectType="35.0" EffectValue0="20.0" EffectValue1="1.5" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="323.0" Name="25% 확률로 1.5초간 스턴" Probability="25.0" EffectType="35.0" EffectValue0="25.0" EffectValue1="1.5" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="324.0" Name="25% 확률로 1.5초간 스턴" Probability="25.0" EffectType="35.0" EffectValue0="25.0" EffectValue1="1.5" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="325.0" Name="30% 확률로 1.5초간 스턴" Probability="30.0" EffectType="35.0" EffectValue0="30.0" EffectValue1="1.5" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="326.0" Name="블록 성공 시 10 초간 방어력 2 증가 (중복 안됨)" Probability="100.0" EffectType="60.0" EffectValue0="10.0" EffectValue1="2.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="327.0" Name="블록 성공 시 10 초간 방어력 4 증가 (중복 안됨)" Probability="100.0" EffectType="60.0" EffectValue0="10.0" EffectValue1="4.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="328.0" Name="블록 성공 시 10 초간 방어력 6 증가 (중복 안됨)" Probability="100.0" EffectType="60.0" EffectValue0="10.0" EffectValue1="6.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="329.0" Name="블록 성공 시 10 초간 방어력 8 증가 (중복 안됨)" Probability="100.0" EffectType="60.0" EffectValue0="10.0" EffectValue1="8.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="330.0" Name="블록 성공 시 10 초간 방어력 10 증가 (중복 안됨)" Probability="100.0" EffectType="60.0" EffectValue0="10.0" EffectValue1="10.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="331.0" Name="블록 성공 시 0~1 거리 내에 있는 적에게 입은 물리 데미지 40%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="40.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="332.0" Name="블록 성공 시 0~1 거리 내에 있는 적에게 입은 물리 데미지 45%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="45.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="333.0" Name="블록 성공 시 0~1 거리 내에 있는 적에게 입은 물리 데미지 50%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="334.0" Name="블록 성공 시 0~1 거리 내에 있는 적에게 입은 물리 데미지 55%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="55.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="335.0" Name="블록 성공 시 0~1 거리 내에 있는 적에게 입은 물리 데미지 60%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="60.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="336.0" Name="블록 성공 시 2~4 거리 내에 있는 적에게 입은 물리 데미지 40%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="40.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="337.0" Name="블록 성공 시 2~4 거리 내에 있는 적에게 입은 물리 데미지 45%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="45.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="338.0" Name="블록 성공 시 2~4 거리 내에 있는 적에게 입은 물리 데미지 50%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="339.0" Name="블록 성공 시 2~4 거리 내에 있는 적에게 입은 물리 데미지 55%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="55.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="340.0" Name="블록 성공 시 2~4 거리 내에 있는 적에게 입은 물리 데미지 60%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="61.0" EffectValue0="60.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="341.0" Name="블록 성공 시 마법 공격에 의해 입은 데미지 40%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="62.0" EffectValue0="40.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="342.0" Name="블록 성공 시 마법 공격에 의해 입은 데미지 45%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="62.0" EffectValue0="45.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="343.0" Name="블록 성공 시 마법 공격에 의해 입은 데미지 50%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="62.0" EffectValue0="50.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="344.0" Name="블록 성공 시 마법 공격에 의해 입은 데미지 55%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="62.0" EffectValue0="55.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+<Data Index="345.0" Name="블록 성공 시 마법 공격에 의해 입은 데미지 60%를 공격한 적에게 돌려줌" Probability="100.0" EffectType="62.0" EffectValue0="60.0" EffectValue1="0.0" EffectValue2="0.0" EffectFile=".\Effect\SP_UP.ani"/>
+</SkillEffectList>

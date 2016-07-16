@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "HP_Blue_Zero.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "52" CutBottom = "10" Left = "0" Top = "0" Right = "52" Bottom = "10" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+  </SpriteInfo>
+  <SpriteInfo Layer = "1" TextureName = "HP_Blue_Full.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "52" CutBottom = "10" Left = "0" Top = "0" Right = "52" Bottom = "10" R = "255" G = "255" B = "255" A = "255"  Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

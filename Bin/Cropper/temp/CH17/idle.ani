@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Animation>
+<LayerInfo Layer="0" TextureName="ANI_CH_IDLE_0017.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="70" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="1" CutLeft="70" CutTop="0" CutRight="140" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="2" CutLeft="140" CutTop="0" CutRight="210" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="3" CutLeft="210" CutTop="0" CutRight="280" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="280" CutTop="0" CutRight="350" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="5" CutLeft="350" CutTop="0" CutRight="420" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="6" CutLeft="420" CutTop="0" CutRight="490" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="7" CutLeft="490" CutTop="0" CutRight="560" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="560" CutTop="0" CutRight="630" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="9" CutLeft="630" CutTop="0" CutRight="700" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="10" CutLeft="700" CutTop="0" CutRight="770" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="11" CutLeft="770" CutTop="0" CutRight="840" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="840" CutTop="0" CutRight="910" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="13" CutLeft="910" CutTop="0" CutRight="980" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="14" CutLeft="980" CutTop="0" CutRight="1050" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="15" CutLeft="1050" CutTop="0" CutRight="1120" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="16" CutLeft="1120" CutTop="0" CutRight="1190" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="17" CutLeft="1190" CutTop="0" CutRight="1260" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="18" CutLeft="1260" CutTop="0" CutRight="1330" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="19" CutLeft="1330" CutTop="0" CutRight="1400" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="20" CutLeft="1400" CutTop="0" CutRight="1470" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="21" CutLeft="1470" CutTop="0" CutRight="1540" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="22" CutLeft="1540" CutTop="0" CutRight="1610" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="23" CutLeft="1610" CutTop="0" CutRight="1680" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="24" CutLeft="1680" CutTop="0" CutRight="1750" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="25" CutLeft="1750" CutTop="0" CutRight="1820" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="26" CutLeft="1820" CutTop="0" CutRight="1890" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="27" CutLeft="1890" CutTop="0" CutRight="1960" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="28" CutLeft="1960" CutTop="0" CutRight="2030" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="29" CutLeft="2030" CutTop="0" CutRight="2100" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="30" CutLeft="2100" CutTop="0" CutRight="2170" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="31" CutLeft="2170" CutTop="0" CutRight="2240" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="32" CutLeft="2240" CutTop="0" CutRight="2310" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="33" CutLeft="2310" CutTop="0" CutRight="2380" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="34" CutLeft="2380" CutTop="0" CutRight="2450" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="35" CutLeft="2450" CutTop="0" CutRight="2520" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="36" CutLeft="2520" CutTop="0" CutRight="2590" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="37" CutLeft="2590" CutTop="0" CutRight="2660" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="38" CutLeft="2660" CutTop="0" CutRight="2730" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="39" CutLeft="2730" CutTop="0" CutRight="2800" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="40" CutLeft="2800" CutTop="0" CutRight="2870" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="41" CutLeft="2870" CutTop="0" CutRight="2940" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="42" CutLeft="2940" CutTop="0" CutRight="3010" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="43" CutLeft="3010" CutTop="0" CutRight="3080" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="44" CutLeft="3080" CutTop="0" CutRight="3150" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="45" CutLeft="3150" CutTop="0" CutRight="3220" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="46" CutLeft="3220" CutTop="0" CutRight="3290" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="47" CutLeft="3290" CutTop="0" CutRight="3360" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="48" CutLeft="3360" CutTop="0" CutRight="3430" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+</Animation>

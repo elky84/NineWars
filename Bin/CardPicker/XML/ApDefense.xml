@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ApDefenseList>
+<Data Class="1.0" Point="20.0"/>
+<Data Class="2.0" Point="60.0"/>
+<Data Class="3.0" Point="30.0"/>
+<Data Class="4.0" Point="50.0"/>
+<Data Class="5.0" Point="20.0"/>
+<Data Class="6.0" Point="50.0"/>
+<Data Class="7.0" Point="80.0"/>
+</ApDefenseList>

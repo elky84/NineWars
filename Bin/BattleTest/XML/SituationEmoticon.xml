@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<SituationEmoticonList>
+<Data Index="1.0" Name="방호 요청" Description="자신에게 타겟이 많이 몰렸을 시 주변 파티원에게 도움을 요청하여 부담을 나누려 한다."/>
+<Data Index="2.0" Name="지원 공격 요청" Description="자신이 타겟팅한 적을 신속하게 제거하고자 할 때 지원 공격을 포현한다."/>
+<Data Index="3.0" Name="족쇄" Description="족쇄 상태가 되었을 때를 표현한다. 발이 묶여 이동하지 못하는 상태가 된다."/>
+<Data Index="4.0" Name="기절" Description="기절상태가 되었을 때를 표현한다. 이동, 행동을 하지 못하는 상태가 된다."/>
+<Data Index="5.0" Name="혼란" Description="혼란상태가 되었을 때를 표현한다. 피아식별(아군, 적군을 구별하는 능력) 능력을 상실하여 가장 가까운 유닛을 공격하는 상태가 된다."/>
+<Data Index="6.0" Name="동상" Description="동상상태가 되었을 때를 표현한다. 냉기 데미지로 인하여 이동속도가 저하되고 지속적으로 데미지를 입는 상태가 된다."/>
+<Data Index="7.0" Name="중독" Description="중독상태가 되었을 때를 표현한다. 독에 중독되어 지속적으로 데미지를 입는 상태가 된다."/>
+<Data Index="8.0" Name="화상" Description="화상상태가 되었을 때를 표현한다. 불에 데여 지속적으로 데미지를 입는 상태가 된다."/>
+<Data Index="9.0" Name="감전" Description="감전상태가 되었을 때를 표현한다. 전기에 감전되어 지속적으로 데미지를 입는 상태가 된다."/>
+<Data Index="10.0" Name="은신" Description="은신상태가 되었을 때를 표현한다. 반투명 상태가 되어 적에게 발각되지 않는 상태가 된다."/>
+<Data Index="11.0" Name="무적" Description="무적상태가 되었을 때를 표현한다."/>
+<Data Index="12.0" Name="실명" Description="실명상태가 되었을 때를 표현한다. 시야를 상실하여 이동속도가 0이 되며 아주 가까운 사정거리에 들어온 적이 아니면 공격할 수 없는 상태가 된다."/>
+<Data Index="13.0" Name="Str 증가" Description="Str 증가 되었을 때를 표현한다."/>
+<Data Index="14.0" Name="Str 하락" Description="Str 하락 되었을 때를 표현한다."/>
+<Data Index="15.0" Name="Con 증가" Description="Con 증가 되었을 때를 표현한다."/>
+<Data Index="16.0" Name="Con 하락" Description="Con 하락 되었을 때를 표현한다."/>
+<Data Index="17.0" Name="Dex 증가" Description="Dex 증가 되었을 때를 표현한다."/>
+<Data Index="18.0" Name="Dex 하락" Description="Dex 하락 되었을 때를 표현한다."/>
+<Data Index="19.0" Name="Int 증가" Description="Int 증가 되었을 때를 표현한다."/>
+<Data Index="20.0" Name="Int 하락" Description="Int 하락 되었을 때를 표현한다."/>
+<Data Index="21.0" Name="Wis 증가" Description="Wis 증가 되었을 때를 표현한다."/>
+<Data Index="22.0" Name="Wis 하락" Description="Wis 하락 되었을 때를 표현한다."/>
+<Data Index="23.0" Name="물리 공격력 증가" Description="물리 공격력 증가 되었을 때를 표현한다."/>
+<Data Index="24.0" Name="물리 공격력 하락" Description="물리 공격력 하락 되었을 때를 표현한다."/>
+<Data Index="25.0" Name="물리 방어력 증가" Description="물리 방어력 증가 되었을 때를 표현한다."/>
+<Data Index="26.0" Name="물리 방어력 하락" Description="물리 방어력 하락 되었을 때를 표현한다."/>
+<Data Index="27.0" Name="마법 공격력 증가" Description="마법 공격력 증가 되었을 때를 표현한다."/>
+<Data Index="28.0" Name="마법 공격력 하락" Description="마법 공격력 하락 되었을 때를 표현한다."/>
+<Data Index="29.0" Name="마법 방어력 증가" Description="마법 방어력 증가 되었을 때를 표현한다."/>
+<Data Index="30.0" Name="마법 방어력 하락" Description="마법 방어력 하락 되었을 때를 표현한다."/>
+<Data Index="31.0" Name="이동속도 증가" Description="이동속도 증가 되었을 때를 표현한다."/>
+<Data Index="32.0" Name="이동속도 하락" Description="이동속도 하락 되었을 때를 표현한다."/>
+<Data Index="33.0" Name="사정거리 증가" Description="사정거리 증가 되었을 때를 표현한다."/>
+<Data Index="34.0" Name="사정거리 하락" Description="사정거리 하락 되었을 때를 표현한다."/>
+</SituationEmoticonList>

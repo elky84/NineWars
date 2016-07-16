@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Animation>
+<LayerInfo Layer="0" TextureName="ANI_EFFECT_MAGICCLASH.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="180" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="3" CutLeft="180" CutTop="0" CutRight="360" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="6" CutLeft="360" CutTop="0" CutRight="540" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="9" CutLeft="540" CutTop="0" CutRight="720" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="720" CutTop="0" CutRight="900" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="15" CutLeft="900" CutTop="0" CutRight="1080" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="18" CutLeft="1080" CutTop="0" CutRight="1260" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="21" CutLeft="1260" CutTop="0" CutRight="1440" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="24" CutLeft="1440" CutTop="0" CutRight="1620" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="27" CutLeft="1620" CutTop="0" CutRight="1800" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="30" CutLeft="1800" CutTop="0" CutRight="1980" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="33" CutLeft="1980" CutTop="0" CutRight="2160" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="36" CutLeft="2160" CutTop="0" CutRight="2340" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="39" CutLeft="2340" CutTop="0" CutRight="2520" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="42" CutLeft="2520" CutTop="0" CutRight="2700" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="45" CutLeft="2700" CutTop="0" CutRight="2880" CutBottom="180" Left="0" Top="0" Right="180" Bottom="180" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+</Animation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<AdDamageList>
+<Data Class="1.0" Min="15.0" Max="20.0"/>
+<Data Class="2.0" Min="5.0" Max="10.0"/>
+<Data Class="3.0" Min="5.0" Max="25.0"/>
+<Data Class="4.0" Min="10.0" Max="15.0"/>
+<Data Class="5.0" Min="5.0" Max="15.0"/>
+<Data Class="6.0" Min="0.0" Max="0.0"/>
+<Data Class="7.0" Min="5.0" Max="10.0"/>
+</AdDamageList>

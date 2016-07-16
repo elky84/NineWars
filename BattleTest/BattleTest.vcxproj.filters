@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a8a3b169-1580-4fba-8a04-5881ca99dcf2}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e8de67ae-cc19-45ae-9720-bb0ff6984020}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{60656ef0-45d9-48cd-8536-dad472aadcee}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Mode">
+      <UniqueIdentifier>{3b998687-d4ac-4ad5-9e20-d105c5b8e728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleManager">
+      <UniqueIdentifier>{35161cd2-7044-4638-86b2-7128b3b5ead6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{34ad0c84-7d5f-499e-a4b0-f582c4861a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{c36bd829-c30f-4421-b865-528d36e9e877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Constant">
+      <UniqueIdentifier>{cbf7b5ac-845b-40a2-9495-d207a1082fab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleManager.cpp">
+      <Filter>BattleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSettingMode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingMode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="DispositionMode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticsMode.cpp">
+      <Filter>Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="SetupUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CardUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DispositionUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleManager.h">
+      <Filter>BattleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSettingMode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingMode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="DispositionMode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="TacticsMode.h">
+      <Filter>Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="SetupUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CardUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DispositionUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigConstant.h">
+      <Filter>Config</Filter>
+    </ClInclude>
+    <ClInclude Include="PickConstant.h">
+      <Filter>Constant</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

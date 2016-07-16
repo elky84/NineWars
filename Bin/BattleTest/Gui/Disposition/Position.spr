@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Sprite>
+<SpriteInfo Layer="0" TextureName="Position.png">
+	<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="112" CutBottom="61" Left="0" Top="0" Right="112" Bottom="70" R="255" G="255" B="255" A="128" Rotate="0"/>
+</SpriteInfo>
+</Sprite>

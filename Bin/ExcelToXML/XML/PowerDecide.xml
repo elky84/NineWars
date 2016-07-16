@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<PowerDecideList>
+<Data Class="1.0" AD="1.0" AC="1.0" AP="0.0" MR="0.0"/>
+<Data Class="2.0" AD="0.0" AC="1.0" AP="0.0" MR="1.0"/>
+<Data Class="3.0" AD="1.0" AC="0.0" AP="1.0" MR="0.0"/>
+<Data Class="4.0" AD="1.0" AC="1.0" AP="0.0" MR="0.0"/>
+<Data Class="5.0" AD="1.0" AC="0.0" AP="1.0" MR="0.0"/>
+<Data Class="6.0" AD="0.0" AC="0.0" AP="1.0" MR="1.0"/>
+<Data Class="7.0" AD="0.0" AC="1.0" AP="0.0" MR="1.0"/>
+</PowerDecideList>

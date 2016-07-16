@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<ItemInfoList>
+<Data Index="0.0" Name="오크족 단검" Category="단검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="3.0" AttackRate="2.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="100.png"/>
+<Data Index="1.0" Name="단검" Category="단검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="2.0" AttackRate="2.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="101.png"/>
+<Data Index="2.0" Name="요정족 단검" Category="단검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="3.0" AttackRate="2.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="언데드 추가 타격치" Icon="102.png"/>
+<Data Index="3.0" Name="메일 브레이커" Category="한손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="5.0" AttackRate="10.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="언데드 추가 타격치" Icon="103.png"/>
+<Data Index="4.0" Name="일본도" Category="한손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="12.0" AttackRate="1.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="104.png"/>
+<Data Index="5.0" Name="레이피어" Category="한손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="12.0" AttackRate="2.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="언데드 추가 타격치" Icon="105.png"/>
+<Data Index="6.0" Name="싸울아비 장검" Category="한손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="10.0" AttackRate="2.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="106.png"/>
+<Data Index="7.0" Name="양손검" Category="양손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.5" Damage="19.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="추가타격+3" Icon="107.png"/>
+<Data Index="8.0" Name="벡드코빈" Category="양손창" CategoryNumber="1.0" AttackSpeed="10.0" Range="2.0" Damage="17.0" AttackRate="3.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="갑옷 방어 무시" Icon="108.png"/>
+<Data Index="9.0" Name="광전사의 도끼" Category="양손도끼" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="9.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="착용시 헤이스트효과" Icon="109.png"/>
+<Data Index="10.0" Name="대형도끼" Category="양손도끼" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="16.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="110.png"/>
+<Data Index="11.0" Name="요정족활" Category="양손활" CategoryNumber="1.0" AttackSpeed="10.0" Range="5.0" Damage="2.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="추가타격+1(요정만)" Icon="111.png"/>
+<Data Index="12.0" Name="사냥꾼활" Category="양손활" CategoryNumber="1.0" AttackSpeed="10.0" Range="5.0" Damage="2.0" AttackRate="5.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="추가타격+1" Icon="112.png"/>
+<Data Index="13.0" Name="장궁" Category="양손활" CategoryNumber="1.0" AttackSpeed="10.0" Range="5.0" Damage="3.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="추가타격+3(요정만)" Icon="113.png"/>
+<Data Index="14.0" Name="크로스보우" Category="양손활" CategoryNumber="1.0" AttackSpeed="10.0" Range="5.0" Damage="2.0" AttackRate="3.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="추가타격+2(요정만)" Icon="114.png"/>
+<Data Index="15.0" Name="수정지팡이" Category="양손지팡이" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="1.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="턴당 mp회복 증가" Icon="115.png"/>
+<Data Index="16.0" Name="마력의 지팡이" Category="양손지팡이" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.0" Damage="3.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="sp+1" Icon="116.png"/>
+<Data Index="17.0" Name="화살" Category="화살" CategoryNumber="1.0" AttackSpeed="10.0" Range="0.0" Damage="5.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="117.png"/>
+<Data Index="18.0" Name="은화살" Category="화살" CategoryNumber="1.0" AttackSpeed="10.0" Range="0.0" Damage="6.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="언데드 추가타격+1" Icon="118.png"/>
+<Data Index="19.0" Name="미스릴 화살" Category="화살" CategoryNumber="1.0" AttackSpeed="10.0" Range="0.0" Damage="9.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="언데드 추가타격+1" Icon="119.png"/>
+<Data Index="20.0" Name="오리하루콘 화살" Category="화살" CategoryNumber="1.0" AttackSpeed="10.0" Range="0.0" Damage="12.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="120.png"/>
+<Data Index="21.0" Name="블랙미스릴 화살" Category="화살" CategoryNumber="1.0" AttackSpeed="10.0" Range="0.0" Damage="15.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="121.png"/>
+<Data Index="22.0" Name="워리어 대검" Category="양손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.5" Damage="20.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="107.png"/>
+<Data Index="23.0" Name="나이트 한손검" Category="한손검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.2" Damage="10.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="105.png"/>
+<Data Index="24.0" Name="어쌔씬 쌍검" Category="단검" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.2" Damage="18.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="100.png"/>
+<Data Index="25.0" Name="라이더 기창" Category="양손창" CategoryNumber="1.0" AttackSpeed="10.0" Range="2.0" Damage="13.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="108.png"/>
+<Data Index="26.0" Name="아쳐 롱보우" Category="양손활" CategoryNumber="5.0" AttackSpeed="10.0" Range="4.0" Damage="15.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="113.png"/>
+<Data Index="27.0" Name="매지션 로드" Category="양손지팡이" CategoryNumber="5.0" AttackSpeed="10.0" Range="5.5" Damage="18.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="115.png"/>
+<Data Index="28.0" Name="힐러 메이스" Category="한손둔기" CategoryNumber="1.0" AttackSpeed="10.0" Range="1.5" Damage="13.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="110.png"/>
+<Data Index="29.0" Name="기사의 면갑" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="3.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="200.png"/>
+<Data Index="30.0" Name="요정족 가죽투구" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="201.png"/>
+<Data Index="31.0" Name="마법방어투구" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="4.0" SafeEnchant="4.0" Option="인첸트시 MR+1" Icon="202.png"/>
+<Data Index="32.0" Name="붉은기사의 두건" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="203.png"/>
+<Data Index="33.0" Name="엘름의축복" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="0.0" SafeEnchant="6.0" Option="Dex+1" Icon="204.png"/>
+<Data Index="34.0" Name="티셔츠" Category="티셔츠" CategoryNumber="4.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="205.png"/>
+<Data Index="35.0" Name="요정족 티셔츠" Category="티셔츠" CategoryNumber="4.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="206.png"/>
+<Data Index="36.0" Name="무명로브" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="4.0" SafeEnchant="4.0" Option="없음" Icon="207.png"/>
+<Data Index="37.0" Name="나무갑옷" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="3.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="208.png"/>
+<Data Index="38.0" Name="판금갑옷" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="6.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="209.png"/>
+<Data Index="39.0" Name="마법방어사슬갑옷" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="4.0" SafeEnchant="4.0" Option="인첸트시 MR+1" Icon="210.png"/>
+<Data Index="40.0" Name="요정족방패" Category="방패" CategoryNumber="2.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="0.0" SafeEnchant="6.0" Option="요정만 MR+5" Icon="211.png"/>
+<Data Index="41.0" Name="사각방패" Category="방패" CategoryNumber="2.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="3.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="212.png"/>
+<Data Index="42.0" Name="은기사의방패" Category="방패" CategoryNumber="2.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="4.0" SafeEnchant="4.0" Option="인첸트시 광선류 확률 감소" Icon="213.png"/>
+<Data Index="43.0" Name="활 골무" Category="장갑" CategoryNumber="6.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="4.0" Option="활명중률+2" Icon="214.png"/>
+<Data Index="44.0" Name="장갑" Category="장갑" CategoryNumber="6.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="215.png"/>
+<Data Index="45.0" Name="파워글로브" Category="장갑" CategoryNumber="6.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="0.0" MR="0.0" SafeEnchant="4.0" Option="Str+2" Icon="216.png"/>
+<Data Index="46.0" Name="부츠" Category="신발" CategoryNumber="7.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="2.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="217.png"/>
+<Data Index="47.0" Name="요정족 망토" Category="망토" CategoryNumber="8.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="6.0" Option="HP회복력증가(요정만)" Icon="218.png"/>
+<Data Index="48.0" Name="마법 망토" Category="망토" CategoryNumber="8.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="10.0" SafeEnchant="4.0" Option="인첸트시 MR+4" Icon="219.png"/>
+<Data Index="49.0" Name="보호 망토" Category="망토" CategoryNumber="8.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="3.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="220.png"/>
+<Data Index="50.0" Name="저급 방패" Category="방패" CategoryNumber="2.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="212.png"/>
+<Data Index="51.0" Name="중급 방패" Category="방패" CategoryNumber="2.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="211.png"/>
+<Data Index="52.0" Name="고급 방패" Category="방패" CategoryNumber="2.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="213.png"/>
+<Data Index="53.0" Name="저급 투구" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="203.png"/>
+<Data Index="54.0" Name="중급 투구" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="201.png"/>
+<Data Index="55.0" Name="고급 투구" Category="투구" CategoryNumber="3.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="204.png"/>
+<Data Index="56.0" Name="저급 티셔츠" Category="티셔츠" CategoryNumber="4.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="206.png"/>
+<Data Index="57.0" Name="중급 티셔츠" Category="티셔츠" CategoryNumber="4.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="206.png"/>
+<Data Index="58.0" Name="고급 티셔츠" Category="티셔츠" CategoryNumber="4.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="205.png"/>
+<Data Index="59.0" Name="저급 갑옷" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="207.png"/>
+<Data Index="60.0" Name="중급 갑옷" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="208.png"/>
+<Data Index="61.0" Name="고급 갑옷" Category="갑옷" CategoryNumber="5.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="209.png"/>
+<Data Index="62.0" Name="저급 장갑" Category="장갑" CategoryNumber="6.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="214.png"/>
+<Data Index="63.0" Name="중급 장갑" Category="장갑" CategoryNumber="6.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="215.png"/>
+<Data Index="64.0" Name="고급 장갑" Category="장갑" CategoryNumber="6.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="216.png"/>
+<Data Index="65.0" Name="저급 신발" Category="신발" CategoryNumber="7.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="217.png"/>
+<Data Index="66.0" Name="중급 신발" Category="신발" CategoryNumber="7.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="217.png"/>
+<Data Index="67.0" Name="고급 신발" Category="신발" CategoryNumber="7.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="217.png"/>
+<Data Index="68.0" Name="저급 망토" Category="망토" CategoryNumber="8.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="1.0" MR="0.0" SafeEnchant="4.0" Option="없음" Icon="218.png"/>
+<Data Index="69.0" Name="중급 망토" Category="망토" CategoryNumber="8.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="5.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="219.png"/>
+<Data Index="70.0" Name="고급 망토" Category="망토" CategoryNumber="8.0" AttackSpeed="0.0" Range="0.0" Damage="0.0" AttackRate="0.0" AC="10.0" MR="0.0" SafeEnchant="6.0" Option="없음" Icon="220.png"/>
+</ItemInfoList>

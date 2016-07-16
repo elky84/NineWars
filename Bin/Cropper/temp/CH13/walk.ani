@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Animation>
+<LayerInfo Layer="0" TextureName="ANI_CH_WALK_0013.png">
+<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="70" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="1" CutLeft="70" CutTop="0" CutRight="140" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="2" CutLeft="140" CutTop="0" CutRight="210" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="3" CutLeft="210" CutTop="0" CutRight="280" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="4" CutLeft="280" CutTop="0" CutRight="350" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="5" CutLeft="350" CutTop="0" CutRight="420" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="6" CutLeft="420" CutTop="0" CutRight="490" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="7" CutLeft="490" CutTop="0" CutRight="560" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="8" CutLeft="560" CutTop="0" CutRight="630" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="9" CutLeft="630" CutTop="0" CutRight="700" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="10" CutLeft="700" CutTop="0" CutRight="770" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="11" CutLeft="770" CutTop="0" CutRight="840" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="12" CutLeft="840" CutTop="0" CutRight="910" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="13" CutLeft="910" CutTop="0" CutRight="980" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="14" CutLeft="980" CutTop="0" CutRight="1050" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="15" CutLeft="1050" CutTop="0" CutRight="1120" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="16" CutLeft="1120" CutTop="0" CutRight="1190" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="17" CutLeft="1190" CutTop="0" CutRight="1260" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="18" CutLeft="1260" CutTop="0" CutRight="1330" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="19" CutLeft="1330" CutTop="0" CutRight="1400" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="20" CutLeft="1400" CutTop="0" CutRight="1470" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="21" CutLeft="1470" CutTop="0" CutRight="1540" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="22" CutLeft="1540" CutTop="0" CutRight="1610" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="23" CutLeft="1610" CutTop="0" CutRight="1680" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+<FrameInfo Frame="24" CutLeft="1680" CutTop="0" CutRight="1750" CutBottom="70" Left="0" Top="0" Right="70" Bottom="70" R="255" G="255" B="255" A="255" Rotate="0"/>
+</LayerInfo>
+</Animation>

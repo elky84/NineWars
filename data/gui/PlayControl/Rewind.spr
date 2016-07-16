@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "Control.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "35" CutBottom = "35" Left = "0" Top = "0" Right = "35" Bottom = "35" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+    <FrameInfo CutLeft = "35" CutTop = "0" CutRight = "70" CutBottom = "35" Left = "0" Top = "0" Right = "35" Bottom = "35" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+    <FrameInfo CutLeft = "35" CutTop = "0" CutRight = "70" CutBottom = "35" Left = "0" Top = "0" Right = "35" Bottom = "35" R = "255" G = "255" B = "255" A = "255" Rotate = "0"/>
+  </SpriteInfo>
+</Sprite>

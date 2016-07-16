@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Sprite>
+  <SpriteInfo Layer = "0" TextureName = "HPOutline.png"> 
+    <FrameInfo CutLeft = "0" CutTop = "0" CutRight = "17" CutBottom = "60" Left = "0" Top = "0" Right = "17" Bottom = "60" R = "255" G = "255" B = "255" A = "200" Rotate = "0"/>
+  </SpriteInfo>
+ 
+</Sprite>

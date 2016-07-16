@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<Sprite>
+<SpriteInfo Layer="0" TextureName="BGDisposition.png">
+	<FrameInfo Frame="0" CutLeft="0" CutTop="0" CutRight="590" CutBottom="383" Left="0" Top="0" Right="590" Bottom="383" R="255" G="255" B="255" A="255" Rotate="0"/>
+</SpriteInfo>
+</Sprite>
