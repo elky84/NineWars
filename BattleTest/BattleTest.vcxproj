@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -12,7 +12,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{57DCC8BB-50DF-451A-962D-DD3502A0B2D9}</ProjectGuid>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -20,14 +21,14 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>false</WholeProgramOptimization>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -62,7 +63,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_59_0;..\..\light\Dependencies\boost_1_59_0;..\..\light\light\Include;..\..\light\light-excel\Include;..\..\light\light-view\Include;..\..\light\Dependencies\DX\Include;..\..\light\Dependencies\FModex\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63;..\..\light\Dependencies\boost_1_63;..\..\light\light\Include;..\..\light\light-excel\Include;..\..\light\light-view\Include;..\..\light\Dependencies\DX\Include;..\..\light\Dependencies\FModex\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common;</AdditionalIncludeDirectories>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <WholeProgramOptimization>true</WholeProgramOptimization>
     </ClCompile>
@@ -70,7 +71,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_59_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\DX\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\FModex\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_63\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\DX\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\FModex\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>light-excel_D.lib;light-view_D.Lib;light_D.lib;%(AdditionalDependencies); nw_common_D.lib</AdditionalDependencies>
       <AdditionalOptions>/OPT:NOREF /LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>
@@ -87,7 +88,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_59_0;..\..\light\light-excel\Include;..\..\light\light\Include;..\..\light\light-view\Include;..\..\light\Dependencies\DX\Include;..\..\light\Dependencies\FModex\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_63;..\..\light\light-excel\Include;..\..\light\light\Include;..\..\light\light-view\Include;..\..\light\Dependencies\DX\Include;..\..\light\Dependencies\FModex\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -97,7 +98,7 @@
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_59_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\DX\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\FModex\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_63\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\DX\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\FModex\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>light-excel.lib;light-view.Lib;light.lib;%(AdditionalDependencies); nw_common.lib;</AdditionalDependencies>
       <AdditionalOptions>/OPT:NOREF /LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>
