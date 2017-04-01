@@ -63,13 +63,13 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0;..\..\light\Dependencies\boost_1_64_0;..\..\light\light\Include;..\..\light\light-excel\Include;..\..\light\light-view\Include;..\..\light\Dependencies\dx99\Include;..\..\light\Dependencies\fmod\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0;..\..\light\Dependencies\boost_1_64_0;..\..\light\light\Include;..\..\light\light-excel\Include;..\..\light\light-view\Include;..\..\light\Dependencies\dx9\Include;..\..\light\Dependencies\fmod\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\dx99\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\fmod\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\dx9\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\fmod\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib;</AdditionalLibraryDirectories>
       <AdditionalDependencies>light-excel_D.lib;light-view_D.Lib;light_D.lib;%(AdditionalDependencies); nw_common_D.lib</AdditionalDependencies>
       <AdditionalOptions>/OPT:NOREF /LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>
@@ -86,14 +86,14 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0;..\..\light\light-excel\Include;..\..\light\light\Include;..\..\light\light-view\Include;..\..\light\Dependencies\dx99\Include;..\..\light\Dependencies\fmod\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\light\Dependencies\boost_1_64_0;..\..\light\light-excel\Include;..\..\light\light\Include;..\..\light\light-view\Include;..\..\light\Dependencies\dx9\Include;..\..\light\Dependencies\fmod\Inc;..\..\light\Dependencies\freetype2\Include;%(AdditionalIncludeDirectories);..\nw_common</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\dx99\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\fmod\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\light\Dependencies\boost_1_64_0\Lib;..\..\light\light-excel\Lib;..\..\light\Dependencies\dx9\Lib\x86;..\..\light\light-view\Lib;..\..\light\Dependencies\fmod\Lib;..\..\light\Dependencies\freetype2\Lib;..\..\light\light\Lib;%(AdditionalLibraryDirectories);..\Lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>light-excel.lib;light-view.Lib;light.lib;%(AdditionalDependencies); nw_common.lib;</AdditionalDependencies>
       <AdditionalOptions>/OPT:NOREF /LTCG %(AdditionalOptions)</AdditionalOptions>
     </Link>
