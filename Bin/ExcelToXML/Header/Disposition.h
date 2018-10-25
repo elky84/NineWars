@@ -20,8 +20,6 @@ public:
 
 		memset(&m_Judgement, 0, sizeof(m_Judgement));
 
-		memset(&m_Index, 0, sizeof(m_Index));
-
 		memset(&m_DefenseTendency, 0, sizeof(m_DefenseTendency));
 
 		memset(&m_Concentration, 0, sizeof(m_Concentration));
@@ -347,127 +345,127 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/Disposition.XML");
 		if( false == parser.read_file(L"./XML/Disposition.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/Disposition.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/Disposition.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/DispositionList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /DispositionList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /DispositionList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AdDamage", Instance.AdDamageReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AdDamageReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AdDamageReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AdDefense", Instance.AdDefenseReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AdDefenseReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AdDefenseReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Aggressive", Instance.AggressiveReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AggressiveReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AggressiveReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"ApDamage", Instance.ApDamageReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ApDamageReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ApDamageReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"ApDefense", Instance.ApDefenseReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ApDefenseReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ApDefenseReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AttackTendency", Instance.AttackTendencyReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AttackTendencyReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AttackTendencyReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Boldness", Instance.BoldnessReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.BoldnessReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.BoldnessReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Calm", Instance.CalmReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CalmReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CalmReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Competitive", Instance.CompetitiveReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CompetitiveReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CompetitiveReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Concentration", Instance.ConcentrationReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ConcentrationReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ConcentrationReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"DefenseTendency", Instance.DefenseTendencyReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DefenseTendencyReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DefenseTendencyReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Judgement", Instance.JudgementReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.JudgementReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.JudgementReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Leadership", Instance.LeadershipReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.LeadershipReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.LeadershipReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Prediction", Instance.PredictionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PredictionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PredictionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Speed", Instance.SpeedReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.SpeedReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.SpeedReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Tactical", Instance.TacticalReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.TacticalReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.TacticalReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"TeamWork", Instance.TeamWorkReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.TeamWorkReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.TeamWorkReference()");
 			return false;
 		}
 
@@ -481,7 +479,7 @@ public:
 
 	bool Get(std::wstring& key, Disposition& Instance)
 	{
-		std::map<std::wstring, Disposition>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

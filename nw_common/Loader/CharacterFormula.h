@@ -59,31 +59,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/DamageType.XML");
 		if( false == parser.read_file(L"./XML/DamageType.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/DamageType.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/DamageType.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/DamageTypeList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /DamageTypeList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /DamageTypeList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Type", Instance.TypeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.TypeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.TypeReference()");
 			return false;
 		}
 
@@ -97,7 +97,7 @@ public:
 
 	bool Get(int& key, DamageType& Instance)
 	{
-		std::map<int, DamageType>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -195,37 +195,37 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/AdDamage.XML");
 		if( false == parser.read_file(L"./XML/AdDamage.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/AdDamage.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/AdDamage.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/AdDamageList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /AdDamageList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /AdDamageList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Max", Instance.MaxReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MaxReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MaxReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Min", Instance.MinReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MinReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MinReference()");
 			return false;
 		}
 
@@ -239,7 +239,7 @@ public:
 
 	bool Get(int& key, AdDamage& Instance)
 	{
-		std::map<int, AdDamage>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -337,37 +337,37 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/ApDamage.XML");
 		if( false == parser.read_file(L"./XML/ApDamage.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/ApDamage.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/ApDamage.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ApDamageList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ApDamageList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ApDamageList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Max", Instance.MaxReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MaxReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MaxReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Min", Instance.MinReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MinReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MinReference()");
 			return false;
 		}
 
@@ -381,7 +381,7 @@ public:
 
 	bool Get(int& key, ApDamage& Instance)
 	{
-		std::map<int, ApDamage>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -461,31 +461,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/AdDefense.XML");
 		if( false == parser.read_file(L"./XML/AdDefense.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/AdDefense.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/AdDefense.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/AdDefenseList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /AdDefenseList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /AdDefenseList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point", Instance.PointReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PointReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PointReference()");
 			return false;
 		}
 
@@ -499,7 +499,7 @@ public:
 
 	bool Get(int& key, AdDefense& Instance)
 	{
-		std::map<int, AdDefense>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -579,31 +579,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/ApDefense.XML");
 		if( false == parser.read_file(L"./XML/ApDefense.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/ApDefense.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/ApDefense.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ApDefenseList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ApDefenseList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ApDefenseList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point", Instance.PointReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PointReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PointReference()");
 			return false;
 		}
 
@@ -617,7 +617,7 @@ public:
 
 	bool Get(int& key, ApDefense& Instance)
 	{
-		std::map<int, ApDefense>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -697,31 +697,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/AdReduce.XML");
 		if( false == parser.read_file(L"./XML/AdReduce.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/AdReduce.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/AdReduce.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/AdReduceList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /AdReduceList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /AdReduceList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AdDefense", Instance.AdDefenseReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AdDefenseReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AdDefenseReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Reduce", Instance.ReduceReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ReduceReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ReduceReference()");
 			return false;
 		}
 
@@ -735,7 +735,7 @@ public:
 
 	bool Get(int& key, AdReduce& Instance)
 	{
-		std::map<int, AdReduce>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -815,31 +815,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/ApReduce.XML");
 		if( false == parser.read_file(L"./XML/ApReduce.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/ApReduce.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/ApReduce.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ApReduceList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ApReduceList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ApReduceList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"ApDefense", Instance.ApDefenseReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ApDefenseReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ApDefenseReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Reduce", Instance.ReduceReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ReduceReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ReduceReference()");
 			return false;
 		}
 
@@ -853,7 +853,7 @@ public:
 
 	bool Get(int& key, ApReduce& Instance)
 	{
-		std::map<int, ApReduce>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -933,31 +933,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/Turn.XML");
 		if( false == parser.read_file(L"./XML/Turn.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/Turn.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/Turn.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/TurnList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /TurnList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /TurnList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point", Instance.PointReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PointReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PointReference()");
 			return false;
 		}
 
@@ -971,7 +971,7 @@ public:
 
 	bool Get(int& key, Turn& Instance)
 	{
-		std::map<int, Turn>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -1051,31 +1051,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/WeightGauge.XML");
 		if( false == parser.read_file(L"./XML/WeightGauge.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/WeightGauge.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/WeightGauge.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/WeightGaugeList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /WeightGaugeList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /WeightGaugeList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point", Instance.PointReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PointReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PointReference()");
 			return false;
 		}
 
@@ -1089,7 +1089,7 @@ public:
 
 	bool Get(int& key, WeightGauge& Instance)
 	{
-		std::map<int, WeightGauge>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -1169,31 +1169,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/HP.XML");
 		if( false == parser.read_file(L"./XML/HP.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/HP.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/HP.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/HPList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /HPList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /HPList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point", Instance.PointReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PointReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PointReference()");
 			return false;
 		}
 
@@ -1207,7 +1207,7 @@ public:
 
 	bool Get(int& key, HP& Instance)
 	{
-		std::map<int, HP>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -1287,31 +1287,31 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/MP.XML");
 		if( false == parser.read_file(L"./XML/MP.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/MP.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/MP.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/MPList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /MPList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /MPList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point", Instance.PointReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.PointReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.PointReference()");
 			return false;
 		}
 
@@ -1325,7 +1325,7 @@ public:
 
 	bool Get(int& key, MP& Instance)
 	{
-		std::map<int, MP>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

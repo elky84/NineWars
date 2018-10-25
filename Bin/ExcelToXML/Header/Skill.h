@@ -18,8 +18,6 @@ public:
 
 		memset(&m_Range, 0, sizeof(m_Range));
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Location, 0, sizeof(m_Location));
 
 		memset(&m_Index, 0, sizeof(m_Index));
@@ -27,10 +25,6 @@ public:
 		memset(&m_Increase, 0, sizeof(m_Increase));
 
 		memset(&m_HoldTime, 0, sizeof(m_HoldTime));
-
-		memset(&m_EffectFile, 0, sizeof(m_EffectFile));
-
-		memset(&m_Description, 0, sizeof(m_Description));
 
 		memset(&m_Delay, 0, sizeof(m_Delay));
 
@@ -362,151 +356,151 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/Skill.XML");
 		if( false == parser.read_file(L"./XML/Skill.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/Skill.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/Skill.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/SkillList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /SkillList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /SkillList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"BasicChance", Instance.BasicChanceReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.BasicChanceReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.BasicChanceReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"CastingTime", Instance.CastingTimeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CastingTimeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CastingTimeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Condition", Instance.ConditionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ConditionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ConditionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"CoolTime", Instance.CoolTimeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CoolTimeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CoolTimeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Crash", Instance.CrashReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CrashReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CrashReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Delay", Instance.DelayReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DelayReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DelayReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Description", Instance.DescriptionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DescriptionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DescriptionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Effect0", Instance.Effect0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Effect0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Effect0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Effect1", Instance.Effect1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Effect1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Effect1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Effect2", Instance.Effect2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Effect2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Effect2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Effect3", Instance.Effect3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Effect3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Effect3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Effect4", Instance.Effect4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Effect4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Effect4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"EffectFile", Instance.EffectFileReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectFileReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectFileReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"HoldTime", Instance.HoldTimeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.HoldTimeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.HoldTimeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Increase", Instance.IncreaseReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IncreaseReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IncreaseReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Location", Instance.LocationReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.LocationReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.LocationReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Range", Instance.RangeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RangeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RangeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"RangeAdd", Instance.RangeAddReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RangeAddReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RangeAddReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Scale", Instance.ScaleReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ScaleReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ScaleReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Target", Instance.TargetReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.TargetReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.TargetReference()");
 			return false;
 		}
 
@@ -520,7 +514,7 @@ public:
 
 	bool Get(int& key, Skill& Instance)
 	{
-		std::map<int, Skill>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -553,13 +547,9 @@ public:
 
 		memset(&m_Probability, 0, sizeof(m_Probability));
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
 
 		memset(&m_EffectType, 0, sizeof(m_EffectType));
-
-		memset(&m_EffectFile, 0, sizeof(m_EffectFile));
 
 	}
 
@@ -677,67 +667,67 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/SkillEffect.XML");
 		if( false == parser.read_file(L"./XML/SkillEffect.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/SkillEffect.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/SkillEffect.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/SkillEffectList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /SkillEffectList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /SkillEffectList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"EffectFile", Instance.EffectFileReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectFileReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectFileReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"EffectType", Instance.EffectTypeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectTypeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectTypeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"EffectValue0", Instance.EffectValue0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectValue0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectValue0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"EffectValue1", Instance.EffectValue1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectValue1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectValue1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"EffectValue2", Instance.EffectValue2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectValue2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectValue2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Probability", Instance.ProbabilityReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ProbabilityReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ProbabilityReference()");
 			return false;
 		}
 
@@ -751,7 +741,7 @@ public:
 
 	bool Get(int& key, SkillEffect& Instance)
 	{
-		std::map<int, SkillEffect>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -781,8 +771,6 @@ public:
 	SkillCondition()
 	{
 		memset(&m_Index, 0, sizeof(m_Index));
-
-		memset(&m_Desc, 0, sizeof(m_Desc));
 
 		memset(&m_ConditionValue, 0, sizeof(m_ConditionValue));
 
@@ -867,43 +855,43 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/SkillCondition.XML");
 		if( false == parser.read_file(L"./XML/SkillCondition.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/SkillCondition.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/SkillCondition.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/SkillConditionList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /SkillConditionList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /SkillConditionList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"ConditionType", Instance.ConditionTypeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ConditionTypeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ConditionTypeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"ConditionValue", Instance.ConditionValueReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ConditionValueReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ConditionValueReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Desc", Instance.DescReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DescReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DescReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
@@ -917,7 +905,7 @@ public:
 
 	bool Get(int& key, SkillCondition& Instance)
 	{
-		std::map<int, SkillCondition>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

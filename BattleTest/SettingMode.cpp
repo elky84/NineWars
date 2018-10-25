@@ -87,7 +87,8 @@ void SettingMode::Begin()
 		{
 			INT index = 0;
 
-			if(light::INI::Loader::Instance()->find<ConfigConstant>()->get<int>("TEST.RANDOM_PICK"))
+
+			if(light::INI::Loader::Instance()->find<ConfigConstant>()->get<bool>("TEST.RANDOM_PICK"))
 			{
 				while( (INT)player->get_deck()->size() < light::INI::Loader::Instance()->find<ConfigConstant>()->get<int>("TEST.MAX_CHARACTER") )
 				{

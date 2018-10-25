@@ -8,19 +8,11 @@ class CharacterProfile
 public:
 	CharacterProfile()
 	{
-		memset(&m_Story, 0, sizeof(m_Story));
-
 		memset(&m_Sex, 0, sizeof(m_Sex));
 
 		memset(&m_Race, 0, sizeof(m_Race));
 
-		memset(&m_Nickname, 0, sizeof(m_Nickname));
-
 		memset(&m_Nation, 0, sizeof(m_Nation));
-
-		memset(&m_Name, 0, sizeof(m_Name));
-
-		memset(&m_Job, 0, sizeof(m_Job));
 
 		memset(&m_Index, 0, sizeof(m_Index));
 
@@ -28,11 +20,7 @@ public:
 
 		memset(&m_Cost, 0, sizeof(m_Cost));
 
-		memset(&m_Comment, 0, sizeof(m_Comment));
-
 		memset(&m_Class, 0, sizeof(m_Class));
-
-		memset(&m_Age, 0, sizeof(m_Age));
 
 	}
 
@@ -257,97 +245,97 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/CharacterProfile.XML");
 		if( false == parser.read_file(L"./XML/CharacterProfile.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/CharacterProfile.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/CharacterProfile.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/CharacterProfileList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /CharacterProfileList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /CharacterProfileList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Age", Instance.AgeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AgeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AgeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Comment", Instance.CommentReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CommentReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CommentReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Cost", Instance.CostReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CostReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CostReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Group", Instance.GroupReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.GroupReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.GroupReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Job", Instance.JobReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.JobReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.JobReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nation", Instance.NationReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NationReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NationReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nickname", Instance.NicknameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NicknameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NicknameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race", Instance.RaceReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RaceReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RaceReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Sex", Instance.SexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.SexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.SexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Story", Instance.StoryReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.StoryReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.StoryReference()");
 			return false;
 		}
 
@@ -361,7 +349,7 @@ public:
 
 	bool Get(int& key, CharacterProfile& Instance)
 	{
-		std::map<int, CharacterProfile>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

@@ -95,43 +95,43 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/MoveDecide.XML");
 		if( false == parser.read_file(L"./XML/MoveDecide.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/MoveDecide.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/MoveDecide.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/MoveDecideList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /MoveDecideList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /MoveDecideList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"ControlSpeed", Instance.ControlSpeedReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ControlSpeedReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ControlSpeedReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"MaintainRange", Instance.MaintainRangeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MaintainRangeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MaintainRangeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"MaintainSpeed", Instance.MaintainSpeedReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MaintainSpeedReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MaintainSpeedReference()");
 			return false;
 		}
 
@@ -145,7 +145,7 @@ public:
 
 	bool Get(int& key, MoveDecide& Instance)
 	{
-		std::map<int, MoveDecide>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -261,43 +261,43 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/TargetingDecide.XML");
 		if( false == parser.read_file(L"./XML/TargetingDecide.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/TargetingDecide.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/TargetingDecide.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/TargetingDecideList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /TargetingDecideList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /TargetingDecideList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"LessHP", Instance.LessHPReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.LessHPReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.LessHPReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"NearDistance", Instance.NearDistanceReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NearDistanceReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NearDistanceReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"StrongClass", Instance.StrongClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.StrongClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.StrongClassReference()");
 			return false;
 		}
 
@@ -311,7 +311,7 @@ public:
 
 	bool Get(int& key, TargetingDecide& Instance)
 	{
-		std::map<int, TargetingDecide>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -463,55 +463,55 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/MaintainSpeed.XML");
 		if( false == parser.read_file(L"./XML/MaintainSpeed.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/MaintainSpeed.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/MaintainSpeed.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/MaintainSpeedList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /MaintainSpeedList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /MaintainSpeedList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"CurrentState", Instance.CurrentStateReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CurrentStateReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CurrentStateReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Max", Instance.MaxReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MaxReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MaxReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Min", Instance.MinReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MinReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MinReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"MoveTendency", Instance.MoveTendencyReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MoveTendencyReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MoveTendencyReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"WarSituation", Instance.WarSituationReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.WarSituationReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.WarSituationReference()");
 			return false;
 		}
 
@@ -525,7 +525,7 @@ public:
 
 	bool Get(int& key, MaintainSpeed& Instance)
 	{
-		std::map<int, MaintainSpeed>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -659,49 +659,49 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/PowerDecide.XML");
 		if( false == parser.read_file(L"./XML/PowerDecide.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/PowerDecide.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/PowerDecide.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/PowerDecideList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /PowerDecideList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /PowerDecideList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AC", Instance.ACReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ACReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ACReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AD", Instance.ADReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ADReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ADReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AP", Instance.APReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.APReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.APReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"MR", Instance.MRReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MRReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MRReference()");
 			return false;
 		}
 
@@ -715,7 +715,7 @@ public:
 
 	bool Get(int& key, PowerDecide& Instance)
 	{
-		std::map<int, PowerDecide>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

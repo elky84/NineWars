@@ -10,17 +10,9 @@ public:
 	{
 		memset(&m_Width, 0, sizeof(m_Width));
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
-		memset(&m_Move, 0, sizeof(m_Move));
-
 		memset(&m_Index, 0, sizeof(m_Index));
 
-		memset(&m_Idle, 0, sizeof(m_Idle));
-
 		memset(&m_Height, 0, sizeof(m_Height));
-
-		memset(&m_Attack, 0, sizeof(m_Attack));
 
 	}
 
@@ -149,61 +141,61 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/ClassAnimation.XML");
 		if( false == parser.read_file(L"./XML/ClassAnimation.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/ClassAnimation.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/ClassAnimation.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ClassAnimationList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ClassAnimationList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ClassAnimationList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Attack", Instance.AttackReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AttackReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AttackReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Height", Instance.HeightReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.HeightReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.HeightReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Idle", Instance.IdleReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IdleReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IdleReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Move", Instance.MoveReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MoveReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MoveReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Width", Instance.WidthReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.WidthReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.WidthReference()");
 			return false;
 		}
 
@@ -217,7 +209,7 @@ public:
 
 	bool Get(int& key, ClassAnimation& Instance)
 	{
-		std::map<int, ClassAnimation>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

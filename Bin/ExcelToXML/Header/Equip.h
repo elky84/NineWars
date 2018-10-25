@@ -185,73 +185,73 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/Equip.XML");
 		if( false == parser.read_file(L"./XML/Equip.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/Equip.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/Equip.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/EquipList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /EquipList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /EquipList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Armor", Instance.ArmorReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ArmorReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ArmorReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Boots", Instance.BootsReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.BootsReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.BootsReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Class", Instance.ClassReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ClassReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ClassReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Glove", Instance.GloveReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.GloveReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.GloveReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Helmet", Instance.HelmetReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.HelmetReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.HelmetReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"LeftHand", Instance.LeftHandReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.LeftHandReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.LeftHandReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"RightHand", Instance.RightHandReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RightHandReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RightHandReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Robe", Instance.RobeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RobeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RobeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Shirts", Instance.ShirtsReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ShirtsReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ShirtsReference()");
 			return false;
 		}
 
@@ -265,7 +265,7 @@ public:
 
 	bool Get(int& key, Equip& Instance)
 	{
-		std::map<int, Equip>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

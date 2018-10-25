@@ -8,11 +8,7 @@ class SituationEmoticon
 public:
 	SituationEmoticon()
 	{
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
-
-		memset(&m_Description, 0, sizeof(m_Description));
 
 	}
 
@@ -77,37 +73,37 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/SituationEmoticon.XML");
 		if( false == parser.read_file(L"./XML/SituationEmoticon.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/SituationEmoticon.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/SituationEmoticon.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/SituationEmoticonList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /SituationEmoticonList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /SituationEmoticonList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Description", Instance.DescriptionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DescriptionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DescriptionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
@@ -121,7 +117,7 @@ public:
 
 	bool Get(int& key, SituationEmoticon& Instance)
 	{
-		std::map<int, SituationEmoticon>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -150,23 +146,15 @@ class FeelingEmoticon
 public:
 	FeelingEmoticon()
 	{
-		memset(&m_isDuplicate, 0, sizeof(m_isDuplicate));
-
 		memset(&m_Speed, 0, sizeof(m_Speed));
 
 		memset(&m_RemainTime, 0, sizeof(m_RemainTime));
 
 		memset(&m_Range, 0, sizeof(m_Range));
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
 
 		memset(&m_HP_Regenerate, 0, sizeof(m_HP_Regenerate));
-
-		memset(&m_Description, 0, sizeof(m_Description));
-
-		memset(&m_Condition, 0, sizeof(m_Condition));
 
 		memset(&m_AttackSpeed, 0, sizeof(m_AttackSpeed));
 
@@ -417,103 +405,103 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/FeelingEmoticon.XML");
 		if( false == parser.read_file(L"./XML/FeelingEmoticon.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/FeelingEmoticon.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/FeelingEmoticon.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/FeelingEmoticonList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /FeelingEmoticonList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /FeelingEmoticonList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AD_DAMAGE", Instance.AD_DAMAGEReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AD_DAMAGEReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AD_DAMAGEReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AD_DEFENSE", Instance.AD_DEFENSEReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AD_DEFENSEReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AD_DEFENSEReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AP_DAMAGE", Instance.AP_DAMAGEReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AP_DAMAGEReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AP_DAMAGEReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AP_DEPENSE", Instance.AP_DEPENSEReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AP_DEPENSEReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AP_DEPENSEReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AttackSpeed", Instance.AttackSpeedReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AttackSpeedReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AttackSpeedReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Condition", Instance.ConditionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ConditionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ConditionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Description", Instance.DescriptionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DescriptionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DescriptionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"HP_Regenerate", Instance.HP_RegenerateReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.HP_RegenerateReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.HP_RegenerateReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Range", Instance.RangeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RangeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RangeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"RemainTime", Instance.RemainTimeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RemainTimeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RemainTimeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Speed", Instance.SpeedReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.SpeedReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.SpeedReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"isDuplicate", Instance.isDuplicateReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.isDuplicateReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.isDuplicateReference()");
 			return false;
 		}
 
@@ -527,7 +515,7 @@ public:
 
 	bool Get(int& key, FeelingEmoticon& Instance)
 	{
-		std::map<int, FeelingEmoticon>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

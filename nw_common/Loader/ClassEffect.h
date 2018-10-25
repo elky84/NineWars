@@ -10,12 +10,6 @@ public:
 	{
 		memset(&m_Index, 0, sizeof(m_Index));
 
-		memset(&m_Image, 0, sizeof(m_Image));
-
-		memset(&m_Damage, 0, sizeof(m_Damage));
-
-		memset(&m_Attack, 0, sizeof(m_Attack));
-
 	}
 
 	int& IndexReference()
@@ -95,43 +89,43 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/ClassEffect.XML");
 		if( false == parser.read_file(L"./XML/ClassEffect.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/ClassEffect.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/ClassEffect.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ClassEffectList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ClassEffectList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ClassEffectList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Attack", Instance.AttackReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AttackReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AttackReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Damage", Instance.DamageReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DamageReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DamageReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Image", Instance.ImageReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ImageReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ImageReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
@@ -145,7 +139,7 @@ public:
 
 	bool Get(int& key, ClassEffect& Instance)
 	{
-		std::map<int, ClassEffect>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

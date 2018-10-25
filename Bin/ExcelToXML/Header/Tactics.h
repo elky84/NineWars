@@ -12,8 +12,6 @@ public:
 
 		m_Stat.resize(5);
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
 
 	}
@@ -125,91 +123,91 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/Tactics.XML");
 		if( false == parser.read_file(L"./XML/Tactics.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/Tactics.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/Tactics.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/TacticsList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /TacticsList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /TacticsList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Multiply0", Instance.Multiply0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Multiply0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Multiply0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Multiply1", Instance.Multiply1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Multiply1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Multiply1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Multiply2", Instance.Multiply2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Multiply2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Multiply2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Multiply3", Instance.Multiply3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Multiply3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Multiply3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Multiply4", Instance.Multiply4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Multiply4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Multiply4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Stat0", Instance.Stat0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Stat0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Stat0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Stat1", Instance.Stat1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Stat1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Stat1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Stat2", Instance.Stat2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Stat2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Stat2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Stat3", Instance.Stat3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Stat3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Stat3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Stat4", Instance.Stat4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Stat4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Stat4Reference()");
 			return false;
 		}
 
@@ -223,7 +221,7 @@ public:
 
 	bool Get(int& key, Tactics& Instance)
 	{
-		std::map<int, Tactics>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -351,85 +349,85 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/TacticsString.XML");
 		if( false == parser.read_file(L"./XML/TacticsString.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/TacticsString.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/TacticsString.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/TacticsStringList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /TacticsStringList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /TacticsStringList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point0", Instance.Point0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Point0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Point0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point1", Instance.Point1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Point1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Point1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point2", Instance.Point2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Point2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Point2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point3", Instance.Point3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Point3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Point3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Point4", Instance.Point4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Point4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Point4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"String0", Instance.String0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.String0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.String0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"String1", Instance.String1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.String1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.String1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"String2", Instance.String2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.String2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.String2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"String3", Instance.String3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.String3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.String3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"String4", Instance.String4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.String4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.String4Reference()");
 			return false;
 		}
 
@@ -443,7 +441,7 @@ public:
 
 	bool Get(int& key, TacticsString& Instance)
 	{
-		std::map<int, TacticsString>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

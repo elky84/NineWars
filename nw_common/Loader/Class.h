@@ -10,11 +10,7 @@ public:
 	{
 		m_Strong.resize(6);
 
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_Index, 0, sizeof(m_Index));
-
-		memset(&m_Image, 0, sizeof(m_Image));
 
 	}
 
@@ -110,67 +106,67 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/Class.XML");
 		if( false == parser.read_file(L"./XML/Class.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/Class.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/Class.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ClassList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ClassList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ClassList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Image", Instance.ImageReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ImageReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ImageReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Strong1", Instance.Strong1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Strong1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Strong1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Strong2", Instance.Strong2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Strong2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Strong2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Strong3", Instance.Strong3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Strong3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Strong3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Strong4", Instance.Strong4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Strong4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Strong4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Strong5", Instance.Strong5Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Strong5Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Strong5Reference()");
 			return false;
 		}
 
@@ -184,7 +180,7 @@ public:
 
 	bool Get(int& key, Class& Instance)
 	{
-		std::map<int, Class>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

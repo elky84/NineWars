@@ -95,43 +95,43 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/RelationEffect.XML");
 		if( false == parser.read_file(L"./XML/RelationEffect.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/RelationEffect.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/RelationEffect.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/RelationEffectList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /RelationEffectList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /RelationEffectList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Effect", Instance.EffectReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.EffectReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.EffectReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Max", Instance.MaxReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MaxReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MaxReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Min", Instance.MinReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MinReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MinReference()");
 			return false;
 		}
 
@@ -145,7 +145,7 @@ public:
 
 	bool Get(int& key, RelationEffect& Instance)
 	{
-		std::map<int, RelationEffect>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -177,8 +177,6 @@ public:
 		m_Race.resize(9);
 
 		m_Relation.resize(9);
-
-		memset(&m_Name, 0, sizeof(m_Name));
 
 		memset(&m_Index, 0, sizeof(m_Index));
 
@@ -331,139 +329,139 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/RaceRelation.XML");
 		if( false == parser.read_file(L"./XML/RaceRelation.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/RaceRelation.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/RaceRelation.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/RaceRelationList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /RaceRelationList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /RaceRelationList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race0", Instance.Race0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race1", Instance.Race1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race2", Instance.Race2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race3", Instance.Race3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race4", Instance.Race4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race5", Instance.Race5Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race5Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race5Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race6", Instance.Race6Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race6Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race6Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race7", Instance.Race7Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race7Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race7Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Race8", Instance.Race8Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Race8Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Race8Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation0", Instance.Relation0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation1", Instance.Relation1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation2", Instance.Relation2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation3", Instance.Relation3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation4", Instance.Relation4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation5", Instance.Relation5Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation5Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation5Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation6", Instance.Relation6Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation6Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation6Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation7", Instance.Relation7Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation7Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation7Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation8", Instance.Relation8Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation8Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation8Reference()");
 			return false;
 		}
 
@@ -477,7 +475,7 @@ public:
 
 	bool Get(int& key, RaceRelation& Instance)
 	{
-		std::map<int, RaceRelation>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -509,8 +507,6 @@ public:
 		m_Group.resize(5);
 
 		m_Relation.resize(5);
-
-		memset(&m_Name, 0, sizeof(m_Name));
 
 		memset(&m_Index, 0, sizeof(m_Index));
 
@@ -623,91 +619,91 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/GroupRelation.XML");
 		if( false == parser.read_file(L"./XML/GroupRelation.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/GroupRelation.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/GroupRelation.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/GroupRelationList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /GroupRelationList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /GroupRelationList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Group0", Instance.Group0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Group0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Group0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Group1", Instance.Group1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Group1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Group1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Group2", Instance.Group2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Group2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Group2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Group3", Instance.Group3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Group3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Group3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Group4", Instance.Group4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Group4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Group4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation0", Instance.Relation0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation1", Instance.Relation1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation2", Instance.Relation2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation3", Instance.Relation3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation4", Instance.Relation4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation4Reference()");
 			return false;
 		}
 
@@ -721,7 +717,7 @@ public:
 
 	bool Get(int& key, GroupRelation& Instance)
 	{
-		std::map<int, GroupRelation>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -753,8 +749,6 @@ public:
 		m_Nation.resize(5);
 
 		m_Relation.resize(5);
-
-		memset(&m_Name, 0, sizeof(m_Name));
 
 		memset(&m_Index, 0, sizeof(m_Index));
 
@@ -867,91 +861,91 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/NationRelation.XML");
 		if( false == parser.read_file(L"./XML/NationRelation.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/NationRelation.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/NationRelation.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/NationRelationList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /NationRelationList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /NationRelationList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nation0", Instance.Nation0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Nation0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Nation0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nation1", Instance.Nation1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Nation1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Nation1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nation2", Instance.Nation2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Nation2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Nation2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nation3", Instance.Nation3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Nation3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Nation3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Nation4", Instance.Nation4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Nation4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Nation4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation0", Instance.Relation0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation1", Instance.Relation1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation2", Instance.Relation2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation3", Instance.Relation3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation4", Instance.Relation4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation4Reference()");
 			return false;
 		}
 
@@ -965,7 +959,7 @@ public:
 
 	bool Get(int& key, NationRelation& Instance)
 	{
-		std::map<int, NationRelation>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
@@ -997,8 +991,6 @@ public:
 		m_Character.resize(9);
 
 		m_Relation.resize(9);
-
-		memset(&m_Name, 0, sizeof(m_Name));
 
 		memset(&m_Index, 0, sizeof(m_Index));
 
@@ -1151,139 +1143,139 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/CharacterRelation.XML");
 		if( false == parser.read_file(L"./XML/CharacterRelation.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/CharacterRelation.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/CharacterRelation.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/CharacterRelationList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /CharacterRelationList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /CharacterRelationList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character0", Instance.Character0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character1", Instance.Character1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character2", Instance.Character2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character3", Instance.Character3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character4", Instance.Character4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character5", Instance.Character5Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character5Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character5Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character6", Instance.Character6Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character6Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character6Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character7", Instance.Character7Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character7Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character7Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Character8", Instance.Character8Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Character8Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Character8Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation0", Instance.Relation0Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation0Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation0Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation1", Instance.Relation1Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation1Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation1Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation2", Instance.Relation2Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation2Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation2Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation3", Instance.Relation3Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation3Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation3Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation4", Instance.Relation4Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation4Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation4Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation5", Instance.Relation5Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation5Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation5Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation6", Instance.Relation6Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation6Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation6Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation7", Instance.Relation7Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation7Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation7Reference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Relation8", Instance.Relation8Reference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.Relation8Reference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.Relation8Reference()");
 			return false;
 		}
 
@@ -1297,7 +1289,7 @@ public:
 
 	bool Get(int& key, CharacterRelation& Instance)
 	{
-		std::map<int, CharacterRelation>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}

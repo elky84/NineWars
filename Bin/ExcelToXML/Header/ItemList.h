@@ -12,21 +12,13 @@ public:
 
 		memset(&m_Range, 0, sizeof(m_Range));
 
-		memset(&m_Option, 0, sizeof(m_Option));
-
-		memset(&m_Name, 0, sizeof(m_Name));
-
 		memset(&m_MR, 0, sizeof(m_MR));
 
 		memset(&m_Index, 0, sizeof(m_Index));
 
-		memset(&m_Icon, 0, sizeof(m_Icon));
-
 		memset(&m_Damage, 0, sizeof(m_Damage));
 
 		memset(&m_CategoryNumber, 0, sizeof(m_CategoryNumber));
-
-		memset(&m_Category, 0, sizeof(m_Category));
 
 		memset(&m_AttackSpeed, 0, sizeof(m_AttackSpeed));
 
@@ -257,97 +249,97 @@ public:
 		light::ScopeProfiler profiler(__FUNCTIONW__, 10, L"./XML/ItemInfo.XML");
 		if( false == parser.read_file(L"./XML/ItemInfo.XML"))
 		{
-			LOG_ERROR(_T("%s, Open() Failed. Path(./XML/ItemInfo.XML"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, Open() Failed. Path(./XML/ItemInfo.XML");
 			return false;
 		}
 
 		if ( false == parser.execute(L"/ItemInfoList"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. /ItemInfoList"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. /ItemInfoList");
 			return false;
 		}
 
 		if ( false == parser.bind_elem(L"Data"))
 		{
-			LOG_ERROR(_T("%s, execute() Failed. Data"), __FUNCTIONW__);
+			LOG_ERROR(L"%s, execute() Failed. Data");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AC", Instance.ACReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.ACReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.ACReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AttackRate", Instance.AttackRateReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AttackRateReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AttackRateReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"AttackSpeed", Instance.AttackSpeedReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.AttackSpeedReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.AttackSpeedReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Category", Instance.CategoryReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CategoryReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CategoryReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"CategoryNumber", Instance.CategoryNumberReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.CategoryNumberReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.CategoryNumberReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Damage", Instance.DamageReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.DamageReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.DamageReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Icon", Instance.IconReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IconReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IconReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Index", Instance.IndexReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.IndexReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.IndexReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"MR", Instance.MRReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.MRReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.MRReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Name", Instance.NameReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.NameReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.NameReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Option", Instance.OptionReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.OptionReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.OptionReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"Range", Instance.RangeReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.RangeReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.RangeReference()");
 			return false;
 		}
 
 		if ( false == parser.bind_attrib(L"SafeEnchant", Instance.SafeEnchantReference()))
 		{
-			LOG_ERROR(_T("%s, bind_attrib() Failed. Instance.SafeEnchantReference()"), __FUNCTIONW__);
+			LOG_ERROR(L"bind_attrib() Failed. Instance.SafeEnchantReference()");
 			return false;
 		}
 
@@ -361,7 +353,7 @@ public:
 
 	bool Get(int& key, ItemInfo& Instance)
 	{
-		std::map<int, ItemInfo>::iterator it = m_Map.find(key);
+		auto it = m_Map.find(key);
 		{
 			return false;
 		}
