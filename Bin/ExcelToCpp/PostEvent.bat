@@ -1,1 +1,1 @@
-call Distribute_Header.bat "..\..\NWCommon\Instance\"
+call Distribute_Header.bat "..\..\nw_common\Instance\"

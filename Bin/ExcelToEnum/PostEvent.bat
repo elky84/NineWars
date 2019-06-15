@@ -1,1 +1,1 @@
-call Distribute_Header.bat "..\..\NWCommon\Type\"
+call Distribute_Header.bat "..\..\nw_common\Type\"
