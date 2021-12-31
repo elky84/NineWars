@@ -19,5 +19,4 @@ AI based Realtime Battle.
 
 ![ninewars](./ninewars.png)
 
-[Youtube](https://www.youtube.com/watch?v=cXwk5lkvm_Y)
-
+[![Youtube](https://img.youtube.com/vi/cXwk5lkvm_Y/0.jpg)](https://www.youtube.com/watch?v=cXwk5lkvm_Y)
